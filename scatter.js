@@ -16,7 +16,7 @@ let words = str.innerHTML.split(' ').filter(w => w !== '');
 console.log(words)
 str.innerHTML = '';
 words.forEach((word) => {
-    str.innerHTML+= `<span class="word">${word}</span>`;
+    str.innerHTML+= `<span class="word">${word}</span> `;
 })
 
 console.log(str.innerHTML);
