@@ -9,17 +9,24 @@
 //   };
 //   enhance();
 
+document.querySelectorAll(".textMsg").forEach((msg)=>{
+    let msgWords=msg.innerHTML.split(' ').filter(w => w !== '');
+    msg.innerHTML='';
+    msgWords.forEach((msgWord) => {
+        msg.innerHTML+= `<span class="word">${msgWord}</span> `;
+    })
 
-
-let str = document.querySelector('.textMsg')
-let words = str.innerHTML.split(' ').filter(w => w !== '');
-console.log(words)
-str.innerHTML = '';
-words.forEach((word) => {
-    str.innerHTML+= `<span class="word">${word}</span> `;
 })
 
-console.log(str.innerHTML);
+// let str = document.querySelector('.textMsg')
+// let words = str.innerHTML.split(' ').filter(w => w !== '');
+// console.log(words)
+// str.innerHTML = '';
+// words.forEach((word) => {
+//     str.innerHTML+= `<span class="word">${word}</span> `;
+// })
+
+// console.log(str.innerHTML);
 
 
 const enhance = () => {
