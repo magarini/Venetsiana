@@ -1,3 +1,6 @@
+
+/* animate svg */
+
 .path {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
@@ -12,3 +15,23 @@
       stroke-dashoffset: 0;
     }
   }
+
+
+
+  /* animate text svg */
+  svg.svgwave {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
+
+svg.svgwave path {
+    fill:transparent;
+    stroke:red;
+    stroke-width:1px;
+}
+
+svg.svgwave text {
+    font-size:20px;
+    fill: black;
+}

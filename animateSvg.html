@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,34 @@
     <link rel="stylesheet" href="animateSvg.css">
 
 </head>
+
 <body>
 
     <svg viewBox="0 0 340 333">
 
         <path class="path" fill="white" stroke="black" stroke-width="4" d="M66.039,133.545c0,0-21-57,18-67s49-4,65,8
           s30,41,53,27s66,4,58,32s-5,44,18,57s22,46,0,45s-54-40-68-16s-40,88-83,48s11-61-11-80s-79-7-70-41
-          C46.039,146.545,53.039,128.545,66.039,133.545z"/>
-        
-      </svg>
-    
+          C46.039,146.545,53.039,128.545,66.039,133.545z" />
+
+    </svg>
+
+
+
+    <svg class="svgwave" xmlns="http://www.w3.org/2000/svg" width="301" height="21" viewBox="0 0 301 21">
+        <path id="wavepath"
+            d="M0,.5c30.0978,0,30.0978,20,60.1956,20S90.2948.5,120.394.5s30.1,20,60.2,20c30.1015,0,30.1015-20,60.203-20s30.1014,20,60.2029,20">
+        </path>
+
+        <text text-anchor="middle">
+            <textPath class="my-text" href="#wavepath" startOffset="50%">
+                <animate attributeName="startOffset" from="-50%" to="150%" begin="0s" dur="5s" repeatCount="indefinite">
+                </animate>
+                this is a test, isn't it?
+            </textPath>
+        </text>
+
+    </svg>
+
 </body>
+
 </html>
