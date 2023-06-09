@@ -73,7 +73,7 @@ a.project {
 .projectTitle {
   display: flex;
   // align-items: center;
-  margin: 24px 0 8px;
+  margin: 32px 0 8px;
 }
 
 .projectInfo {
@@ -88,7 +88,7 @@ a.project {
 }
 
 .year {
-  margin: 8px;
+  margin: 8px 0;
   font-size: 1rem;
   font-weight: 400;
 }
@@ -99,7 +99,8 @@ a.project {
   right: 0;
   display: none;
   z-index: -1;
-  max-width: 90dvw;
+  max-width: 80dvw;
+  width:80dvw;
   // max-height:60dvh;
   // margin-right:32px;
   box-sizing: border-box;
@@ -107,6 +108,14 @@ a.project {
 
 .projectImg img {
   width: 100%;
+}
+
+.projectImg img.verticalImg {
+  width: auto;
+  max-height:80dvh;
+  position:absolute;
+  right:0;
+  bottom:0;
 }
 
 .projectImg::after {
