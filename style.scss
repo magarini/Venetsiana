@@ -1,33 +1,59 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
-.testHome {
-  body {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    color: white;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
 
-  a {
-    color: white;
-  }
-
-
-}
-
-
-
-
-
+// :root {
+$dark:  #121212;
+$white: #FFFFFFDE;
+// }
 
 body {
-  display: grid;
+  display: flex;
   place-items: center;
-  min-height: 100svh;
-  background-color: black;
-  color: white;
+  min-height: 100dvh;
+  background-color: $dark;
+  color: $white;
+  font-family: 'Chakra Petch', sans-serif;
+  margin:0;
+  padding:0;
 }
 
+.projectsContainer{
+  width:100dvw;
+}
+
+a.project{
+  display:flex;
+  width:100%;
+  align-items: flex-start;
+  justify-content: space-between;
+  color:$white;
+  text-decoration: none;
+}
+
+.projectTitle{
+  display:flex;
+  align-items: center;
+}
+
+.number{
+  margin:24px;
+}
+
+.projectImg{
+  position:absolute;
+  bottom:0;
+  right:0;
+  display:none;
+  z-index:-1;
+}
+
+.project:hover .projectImg,
+.project:focus .projectImg{
+  display:block;
+}
+
+
+// scatter animation
 .line {
   display: flex;
   justify-content: space-between;
@@ -61,14 +87,12 @@ a.word {
   transform: translate(calc(var(--x, 0) * 1%), calc(var(--y, 0) * 1%)) rotate(calc(var(--r, 0) * 1deg)) scale(var(--s, 1));
 }
 
-p {
-  font-size: 8vmin;
-  font-family: Rubik, sans-serif;
-  width: 75vmin;
+.scatterMsg {
+  font-size: 2rem;
+  max-width:320px;
 
-  // text-transform: uppercase;
-  &:hover .word {
-    opacity: 0.25;
+  &:hover .word, &:focus .word {
+    opacity: 0.8;
 
     @root {
       @keyframes wobble {
@@ -89,7 +113,7 @@ p {
       }
     }
 
-    &:hover {
+    &:hover,&:focus {
       opacity: 1;
 
       .letter {
@@ -105,7 +129,7 @@ p {
           --y: #{random(50) - 25};
           --r: #{random(50) - 25};
 
-          &:hover {
+          &:hover,&:focus {
             z-index: 2;
             text-shadow: 2px 2px 10px rgba(0, 0, 0);
             --x: #{random(20) - 10};
@@ -115,6 +139,30 @@ p {
           }
         }
       }
+
+      // more random and distanced
+
+      // @for $i from 1 through 10 {
+      //   .letter:nth-child(#{$i}) {
+      //     --x: #{random(100) - 50};
+      //     --y: #{random(100) - 50};
+      //     --r: #{random(100) - 50};
+
+      //     &:hover {
+      //       z-index: 2;
+      //       text-shadow: 2px 2px 10px rgba(0, 0, 0);
+      //       --x: #{random(50) - 25};
+      //       --y: #{random(50) - 25};
+      //       --r: #{random(50) - 25};
+      //       --s: 1.25;
+      //     }
+      //   }
+      // }
+
+
+
+
+      
     }
   }
 }

@@ -9,7 +9,7 @@
 //   };
 //   enhance();
 
-document.querySelectorAll(".textMsg").forEach((msg)=>{
+document.querySelectorAll(".scatterMsg").forEach((msg)=>{
     let msgWords=msg.innerHTML.split(' ').filter(w => w !== '');
     msg.innerHTML='';
     msgWords.forEach((msgWord) => {
@@ -18,7 +18,7 @@ document.querySelectorAll(".textMsg").forEach((msg)=>{
 
 })
 
-// let str = document.querySelector('.textMsg')
+// let str = document.querySelector('.scatterMsg')
 // let words = str.innerHTML.split(' ').filter(w => w !== '');
 // console.log(words)
 // str.innerHTML = '';
