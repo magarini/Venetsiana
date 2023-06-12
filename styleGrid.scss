@@ -65,6 +65,15 @@ nav a {
 
 }
 
+a.project:nth-child(odd){
+  padding:48px 16px;
+  // background-color:blue;
+}
+
+// .projectsContainer:nth-child(even){
+//   margin:32px 16px;
+// }
+
 a.project {
   display: flex;
   flex-direction: column-reverse;
@@ -74,18 +83,21 @@ a.project {
   // color:$white;
   // text-decoration: none;
   margin:16px;
+  // display:grid;
+  // grid-template-columns: 1fr;
+  // grid-template-rows: 20% 80%;
 }
 
 .projectTitle {
   display: flex;
   // align-items: center;
-  flex-wrap:wrap;
+  // flex-wrap:wrap;
   margin: 8px 0 ;
   box-sizing: border-box;
   width:100%;
 
-  position:relative;
-  top:-32px;
+  // position:relative;
+  // top:-32px;
 }
 
 .projectInfo {
@@ -128,6 +140,8 @@ a.project {
 
 .projectImg img {
   width: 100%;
+  box-sizing: border-box;
+
 }
 
 .projectImg img.verticalImg {
@@ -154,10 +168,10 @@ a.project {
   opacity:0.7;
 }
 
-.project:hover .projectImg,
-.project:focus .projectImg {
-  display: flex;
-}
+// .project:hover .projectImg,
+// .project:focus .projectImg {
+//   display: flex;
+// }
 
 
 // scatter animation
@@ -174,7 +188,9 @@ a.word {
   color: inherit;
 
   .letter {
-    position: relative;
+    // position: relative;
+    position: absolute;
+
 
     &::before {
       content: "";
@@ -197,6 +213,7 @@ a.word {
 .scatterMsg {
   font-size: 2rem;
   z-index:2;
+  // height:max-content;
   // max-width: 320px;
   // word-wrap: break-word;
 
@@ -291,4 +308,9 @@ a.word {
     grid-auto-rows:500px;
   
   }
+
+  .scatterMsg {
+    font-size: 1.5rem;
+  }
+
 }
