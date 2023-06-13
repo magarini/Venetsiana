@@ -363,10 +363,10 @@ a.word {
 
       // more random and distanced
 
-      @for $i from 1 through 10 {
+      @for $i from 1 through 50 {
         .letter:nth-child(#{$i}) {
-          --x: #{1000  - random(2000)};
-          --y: #{100  - random(2000)};
+          --x: #{1000  - random(1500)};
+          --y: #{100  - random(1500)};
           --r: #{random(360)};
 
           &:hover {
