@@ -22,12 +22,15 @@ const enhance = () => {
 enhance();
 
 
-
 document.querySelectorAll('.letter').forEach((letter)=>{
-    x=letter.style.top;
+    // let randomNumber=Math.random(-20,20)
+    let letterPos=letter.getBoundingClientRect();
+    console.log(letterPos.top)
     letter.addEventListener('mouseover', () => {
         letter.style.position = "absolute";
-        letter.style.top = `${Math.random(100)}px`;
-        console.log(x);
+        letter.style.left = `${letterPos.left+ Math.floor(Math.random(-100,100)*100)}px`;
+        
+        letter.style.bottom = `${letterPos.top+ Math.floor(Math.random(-100,100)*100)}px`;
     })
 })
+
