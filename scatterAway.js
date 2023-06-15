@@ -32,12 +32,17 @@ document.querySelectorAll('.scatterIntro .letter').forEach((letter) => {
             letter.style.left = `${Math.floor(Math.random(-5, 5) * 100)}px`;
             letter.style.bottom = `${Math.floor(Math.random(-5, 5) * 100)}px`;
             letter.style.right = `${Math.floor(Math.random(-5, 5) * 100)}px`;
-            // letter.style.top = `${letterPos.top / 10 + Math.floor(Math.random(-50, 50) * 100)}px`;
-            letter.style.transform=`rotate(${Math.floor(Math.random(-90, 90))})`
-            
-            console.log('initialPosLeft', letterPos.left, letter.style.left)
-
+            letter.style.transform = `rotate(${Math.floor(Math.random(-90, 90))})`
         }
+    })
+})
+
+document.addEventListener('click', () => {
+    document.querySelectorAll('.scatterIntro .letter').forEach((letter) => {
+        letter.style.left = `0px`;
+        letter.style.bottom = `0px`;
+        letter.style.right="0px"
+        // letter.style.right = `${Math.floor(Math.random(-5, 5) * 100)}px`;
     })
 })
 
