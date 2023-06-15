@@ -1,4 +1,4 @@
-document.querySelectorAll(".scatterMsg").forEach((msg) => {
+document.querySelectorAll(".scatterIntro").forEach((msg) => {
     let msgWords = msg.innerHTML.split(' ').filter(w => w !== '');
     msg.innerHTML = '';
     msgWords.forEach((msgWord) => {
@@ -10,7 +10,7 @@ document.querySelectorAll(".scatterMsg").forEach((msg) => {
 
 
 const enhance = () => {
-    document.querySelectorAll(".word").forEach((word) => {
+    document.querySelectorAll(".scatterIntro .word").forEach((word) => {
         const letters = word.innerText.split("");
         word.innerHTML = null;
         letters.forEach((letter) => {
@@ -22,15 +22,28 @@ const enhance = () => {
 enhance();
 
 
-document.querySelectorAll('.letter').forEach((letter)=>{
+document.querySelectorAll('.scatterIntro .letter').forEach((letter) => {
     // let randomNumber=Math.random(-20,20)
-    let letterPos=letter.getBoundingClientRect();
-    console.log(letterPos.top)
+    let letterPos = letter.getBoundingClientRect();
+    console.log('initialPos', letterPos)
+    // letter.style.left = `${letterPos.left}px`;
+    // letter.style.bottom = `${letterPos.bottom}px`;
+    // letter.style.right = `${letterPos.right}px`;
+letter.style.transition="all 0.2s"
+
+
+          
     letter.addEventListener('mouseover', () => {
-        letter.style.position = "absolute";
-        letter.style.left = `${letterPos.left+ Math.floor(Math.random(-100,100)*100)}px`;
+
+        if (letterPos.x< window.innerWidth-100 && letterPos.x> 0 && letterPos.y > 0 && letterPos.y < window.innerHeight-100) {
+            letter.style.position = "absolute";
+            letter.style.left = `${letterPos.left + Math.floor(Math.random(-50, 50) * 100)}px`;
+            letter.style.bottom = `${letterPos.bottom / 10 + Math.floor(Math.random(-50, 50) * 100)}px`;
+            letter.style.right = `${letterPos.right + Math.floor(Math.random(-50, 50) * 100)}px`;
+            // letter.style.top = `${letterPos.top / 10 + Math.floor(Math.random(-50, 50) * 100)}px`;
+            console.log('initialPosLeft', letterPos.left, letter.style.left)
         
-        letter.style.bottom = `${letterPos.top+ Math.floor(Math.random(-100,100)*100)}px`;
+        }
     })
 })
 
