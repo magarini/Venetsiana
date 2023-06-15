@@ -52,6 +52,7 @@ nav a {
 }
 
 .intro {
+    overflow-x: hidden;
 
     h1 {
         font-size: 96px;
@@ -65,7 +66,7 @@ nav a {
 }
 
 .scatterIntro .letter{
-    transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out 0.2s;
 
 }
 
