@@ -118,7 +118,7 @@ a.word {
     }
 }
 
-
+.texts .project .letter,
 .menu .letter {
     display: inline-block;
     transition: transform 0.2s ease-in-out;
@@ -126,7 +126,8 @@ a.word {
   }
 
 
-.menu .scatterMsg {
+.menu .scatterMsg,
+.texts .project .scatterMsg {
     z-index: 2;
 
     &:hover,
@@ -319,6 +320,7 @@ a.word {
   .scatterMsg {
     font-size: 2rem;
     z-index:2;
+    margin-right:24px;
   
     &:hover ,
     &:focus {
@@ -381,6 +383,39 @@ a.word {
 
 .testHome{
     padding:24px;
+}
+
+.texts{
+
+    a.project{
+        margin:16px;
+        padding:0;
+    }
+
+    .projectsContainer{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .projectInfo{
+        display:flex;
+        flex-direction: column;
+
+    }
+
+    .number{
+        position:absolute;
+        bottom:24px;
+        right:24px;
+        display:none;
+        font-size: 96px;
+    }
+
+    a.project:hover .number{
+        display:block;
+    }
+
+    
 }
 
 
