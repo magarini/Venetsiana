@@ -27,7 +27,7 @@ nav {
   z-index: 1;
 }
 
-.menuItems {
+.menu {
   display: flex;
   align-items: center;
   justify-content: space-between;

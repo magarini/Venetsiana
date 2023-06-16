@@ -33,7 +33,7 @@ nav {
     z-index: 2;
 }
 
-.menuItems {
+.menu {
     // max-width:50dvw;
     display: flex;
     align-items: center;
@@ -45,7 +45,7 @@ a {
     text-decoration: none;
 }
 
-nav a, nav .menuItems a {
+nav a, nav .menu a {
     margin: 8px;
     font-size: 1.2rem;
     font-weight: 700;
@@ -108,7 +108,7 @@ a.word {
 
 
 
-.menuItems .scatterMsg {
+.menu .scatterMsg {
     z-index: 2;
 
     &:hover,

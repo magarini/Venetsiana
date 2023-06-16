@@ -35,7 +35,6 @@ document.querySelectorAll('.scatterIntro .letter').forEach((letter) => {
             letter.style.transform = `rotate(${Math.floor(Math.random(-90, 90)*100)}deg)`
             letter.style.mozTransform= `rotate(${Math.floor(Math.random(-90, 90)*100)}deg)`
             letter.style.webkitTransform= `rotate(${Math.floor(Math.random(-90, 90)*100)}deg)`
-
         }
     })
 })
