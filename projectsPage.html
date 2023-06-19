@@ -6,21 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="introStyle.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav>
-        <a href="">Ven</a>
-        <div class="menu">
-            <a href="">works</a>
-            <a href="">texts</a>
-            <a href="">calendar</a>
-            <a href="">about</a>
-            <a href="">contact</a>
+        <div class="burgerMenu">
+            <a class="logo" href="intro.html">Ven</a>
+            <a class="burger" href="javascript:void(0);"
+                onclick="toggleBurger()"><img src="icons/menu.svg" alt="menu"></a>
         </div>
-
+        <div class="menu">
+            <a href="projectsPageGrid.html" class="scatterMsg active">works</a>
+            <a href="texts.html" class="scatterMsg">texts</a>
+            <a href="" class="scatterMsg">calendar</a>
+            <a href="" class="scatterMsg">about</a>
+            <a href="" class="scatterMsg">contact</a>
+        </div>
     </nav>
+
     <main class="projectsContainer">
         <a href="" class="project">
             <h2 class="projectTitle">
@@ -57,7 +61,7 @@
                 </div>
             </h2>
             <div class="projectImg">
-                <img src="img/besuch/besuch1.jpg">
+                <img class="brightImg" src="img/besuch/besuch1.jpg">
             </div>
         </a>
         <a href="" class="project">
@@ -127,7 +131,7 @@
                 </div>
             </h2>
             <div class="projectImg">
-                <img class="verticalImg" src="img/synama/synama1.jpg">
+                <img class="verticalImg brightImg" src="img/synama/synama1.jpg">
             </div>
         </a>
         <a href="" class="project">
@@ -146,6 +150,8 @@
 
 
     <script src="scatter.js"></script>
+    <script src="general.js"></script>
+
 </body>
 
 </html>

@@ -11,15 +11,18 @@
 
 <body>
     <nav>
-        <a href="">Ven</a>
+        <div class="burgerMenu">
+            <a class="logo" href="intro.html">Ven</a>
+            <a class="burger" href="javascript:void(0);"
+                onclick="toggleBurger()"><img src="icons/menu.svg" alt="menu"></a>
+        </div>
         <div class="menu">
-            <a href="" class="scatterMsg active">works</a>
+            <a href="projectsPageGrid.html" class="scatterMsg active">works</a>
             <a href="texts.html" class="scatterMsg">texts</a>
             <a href="" class="scatterMsg">calendar</a>
             <a href="" class="scatterMsg">about</a>
             <a href="" class="scatterMsg">contact</a>
         </div>
-
     </nav>
     <main class="projectsContainer">
         <a href="" class="project">
@@ -146,6 +149,8 @@
 
 
     <script src="scatter.js"></script>
+    <script src="general.js"></script>
+
 </body>
 
 </html>

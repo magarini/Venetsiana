@@ -75,7 +75,10 @@ document.addEventListener('click', () => {
     document.querySelectorAll('.scatterIntro .letter').forEach((letter) => {
         letter.style.left = `0px`;
         letter.style.bottom = `0px`;
-        letter.style.right = "0px"
+        letter.style.right = "0px";
+        letter.style.transform = `rotate(0deg)`
+
+
         // letter.style.right = `${Math.floor(Math.random(-5, 5) * 100)}px`;
     })
 })
