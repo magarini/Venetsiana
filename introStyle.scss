@@ -91,6 +91,8 @@ nav .menu a {
 }
 
 
+
+
 // scatter animation for menu
 
 .line {
@@ -420,6 +422,29 @@ a.word {
     }
 
     
+}
+
+
+.about{
+  h1{
+    margin:24px;
+    margin-left:144px;
+  }
+  p{
+    max-width:500px;
+    margin:24px;
+    margin-left:144px;
+
+  }
+
+  .scatterIntro{
+    position:absolute;
+    bottom:5vh;
+    left:5vw;
+    max-width:150px;
+    font-size:24px;
+  }
+
 }
 
 
