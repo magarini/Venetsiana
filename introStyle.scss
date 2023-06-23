@@ -73,13 +73,43 @@ nav .menu a {
 .intro {
   overflow-x: hidden;
 
+  .introContainer{
+    width:100vw;
+  }
+
+
   h1 {
     font-size: 96px;
     position: absolute;
     bottom: 24px;
     left: 24px;
     margin: 0;
-    max-width: 500px;
+    // max-width: 500px;
+  }
+
+  .guide{
+    border-right:3px solid $white;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position:relative;
+    top:16px;
+    right:16px;
+    height:auto;
+
+    .guideControl{
+      display:flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin:0 8px;
+
+
+      .icon{
+        height:24px;
+        margin:8px;
+      }
+
+    }
   }
 
 }
