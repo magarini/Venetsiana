@@ -75,6 +75,7 @@ nav .menu a {
 
   .introContainer{
     width:100vw;
+    height:96vh;
   }
 
 
@@ -93,7 +94,7 @@ nav .menu a {
     flex-direction: column;
     align-items: flex-end;
     position:relative;
-    top:16px;
+    top:72px;
     right:16px;
     height:auto;
 
@@ -105,15 +106,25 @@ nav .menu a {
 
 
       .icon{
-        height:24px;
+        height:16px;
         margin:0 4px;
       }
 
       p{
-        margin:0 8px;
+        margin:0 4px;
       }
 
     }
+  }
+
+  .scatterIntro{
+    display:flex;
+    flex-wrap: wrap;
+    
+    .word{
+      margin-right:24px;
+    }
+
   }
 
 }
@@ -542,6 +553,9 @@ a.word {
       max-width: 360px;
     }
 
+    .guide{
+      top:16px;
+      right:16px;}
   }
 
 
