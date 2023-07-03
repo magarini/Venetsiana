@@ -89,7 +89,7 @@ nav .menu a {
     // max-width: 500px;
   }
 
- 
+
 
   .scatterIntro {
     display: flex;
@@ -127,6 +127,7 @@ nav .menu a {
 
     p {
       margin: 0 4px;
+      text-align: right;
     }
 
   }
@@ -135,41 +136,54 @@ nav .menu a {
 
 
 .projectView {
-  margin-top: 64px;
-  width:100vw;
-  height:100vh;
-  display:flex;
+  // margin-top: 64px;
+  width: 98vw;
+  height: 100vh;
+  display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 
   .projectDescription {
     max-width: 500px;
     margin: 0 24px;
   }
 
-  .leftCol,.rightCol{
-    height:100%;
-    display:flex;
+  .leftCol,
+  .rightCol {
+    // height: 100%;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
-  .rightCol{
+  .leftCol {
+    flex: 2;
+  }
+
+  .rightCol {
     align-items: flex-end;
+    flex: 1;
   }
 
-  .projectLinks{
-    margin:24px;
-    display:flex;
+  .projectLinks {
+    margin: 24px;
+    display: flex;
     flex-direction: column;
     font-size: 12px;
 
   }
 
-  .projectCredits{
-    width:300px;
+  .projectCredits {
+    width: 300px;
     font-size: 12px;
-    display:flex;
+    display: flex;
     flex-direction: column;
+
+    padding-left: 16px;
+    border-left: 3px solid $white;
+    margin: 16px 0;
+
     // align-items: flex-end;
 
     // p{
@@ -177,12 +191,95 @@ nav .menu a {
     // }
   }
 
-  .productionInfo{
-    width:300px;
+  .productionInfo {
+    width: 300px;
     font-size: 14px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     // align-items: flex-end;
+    padding-left: 16px;
+    border-left: 3px solid $white;
+    margin: 16px 0;
+  }
+
+  h3 {
+    margin: 0 0 8px;
+  }
+
+  .projectImgs {
+    padding: 32px 0;
+    width: 96vw;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    row-gap: 144px;
+
+    .scatterIntro {
+      font-size: 64px;
+      display: flex;
+      position: relative;
+    }
+
+    .imgLines {
+      position: relative;
+      // padding:48px;
+      box-sizing: border-box;
+    }
+
+    .imgLines:nth-child(1) {
+      left: 30vw;
+      width: 60vw;
+
+      .scatterIntro {
+        top: -48px;
+        left: -64px;
+      }
+
+    }
+
+    .imgLines:nth-child(2) {
+      left: 8px;
+      width: 30vw;
+
+      .scatterIntro {
+        top: -200px;
+        left: 10vw;
+      }
+
+    }
+
+    .imgLines:nth-child(3) {
+      left: 30vw;
+      width: 60vw;
+
+      .scatterIntro {
+        top: -200px;
+        left: 10vw;
+      }
+    }
+
+    .imgLines:nth-child(4) {
+      left: 0;
+      width: 45vw;
+
+      .scatterIntro {
+        top: -200px;
+        left: 10vw;
+      }
+    }
+
+    .imgLines:nth-child(5) {
+      left: 25vw;
+      width: 65vw;
+
+      .scatterIntro {
+        top: -200px;
+        left: 10vw;
+      }
+    }
+
+
+
   }
 
 }
@@ -193,8 +290,8 @@ nav .menu a {
 
 }
 
-.about main{
-  margin-top:96px;
+.about main {
+  margin-top: 96px;
 }
 
 
@@ -313,9 +410,10 @@ a.word {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-auto-rows: auto;
-  h1{
-    font-size:64px;
-    margin:24px;
+
+  h1 {
+    font-size: 64px;
+    margin: 24px;
   }
 
 }
@@ -340,12 +438,17 @@ a.project {
   margin: 8px 0;
   box-sizing: border-box;
   width: 100%;
+  align-items: center;
+
 }
 
 .projectInfo {
   display: flex;
   flex-wrap: wrap;
   margin: 0 8px;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
 }
 
 .number {
@@ -393,20 +496,20 @@ a.project {
   opacity: 0.7;
 }
 
-.texts{
-  .projectsContainer{
-    padding-left:64px;
+.texts {
+  .projectsContainer {
+    padding-left: 64px;
   }
 }
 
-.projectsGrid{
-  h1{
-    margin:96px 32px 24px;
-    font-size:64px;
+.projectsGrid {
+  h1 {
+    margin: 96px 32px 24px;
+    font-size: 64px;
   }
 
-  .projectsContainer{
-    margin-top:0;
+  .projectsContainer {
+    margin-top: 0;
   }
 }
 
@@ -419,6 +522,9 @@ a.project {
 
 .word {
   transition: opacity 0.2s ease-in-out;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 8px;
 }
 
 a.word {
@@ -452,6 +558,8 @@ a.word {
   font-size: 2rem;
   z-index: 2;
   margin-right: 24px;
+  display: flex;
+  flex-wrap: wrap;
 
   &:hover,
   &:focus {
