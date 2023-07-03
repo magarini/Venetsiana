@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 100vw;
   // max-height: 100dvh;
   // overflow-y: auto;
   background-color: $dark;
@@ -144,9 +145,14 @@ nav .menu a {
   flex-wrap: wrap;
   box-sizing: border-box;
 
+  h1 {
+    font-size: 96px;
+  }
+
   .projectDescription {
-    max-width: 500px;
-    margin: 0 24px;
+    max-width: 600px;
+    padding: 0 24px;
+    box-sizing: border-box;
   }
 
   .leftCol,
@@ -218,12 +224,15 @@ nav .menu a {
       font-size: 64px;
       display: flex;
       position: relative;
+      flex-wrap: wrap;
     }
 
     .imgLines {
       position: relative;
       // padding:48px;
       box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
     }
 
     .imgLines:nth-child(1) {
@@ -242,8 +251,8 @@ nav .menu a {
       width: 30vw;
 
       .scatterIntro {
-        top: -200px;
-        left: 10vw;
+        top: -96px;
+        left: 25vw;
       }
 
     }
@@ -253,7 +262,7 @@ nav .menu a {
       width: 60vw;
 
       .scatterIntro {
-        top: -200px;
+        top: -56px;
         left: 10vw;
       }
     }
@@ -264,7 +273,7 @@ nav .menu a {
 
       .scatterIntro {
         top: -200px;
-        left: 10vw;
+        right: 30vw;
       }
     }
 
@@ -273,8 +282,8 @@ nav .menu a {
       width: 65vw;
 
       .scatterIntro {
-        top: -200px;
-        left: 10vw;
+        top: -100px;
+        right: 35vw;
       }
     }
 
@@ -766,6 +775,35 @@ a.word {
     }
 
   }
+
+  .projectView {
+
+    .leftCol{
+      width:100%;
+    }
+
+    .projectDescription{
+      margin:0;
+      width:100%;
+    }
+
+    .projectImgs {
+      width:100%;
+
+      .imgLines {
+        position: static !important;
+        width:100%!important;
+      }
+
+      .scatterIntro {
+        // position: static !important;
+        left:random(24) + px!important;
+        top:random(24) + px!important;
+        font-size: 48px;
+      }
+    }
+  }
+
 
 
 }
