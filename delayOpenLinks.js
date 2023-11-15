@@ -5,7 +5,7 @@ document.querySelectorAll('.project').forEach((project)=> {
             let link = project.getAttribute("href");
             setTimeout(function () {
                 window.location.href = link;
-            }, 200);
+            }, 500);
             console.log('clickeddd')
 
     });
