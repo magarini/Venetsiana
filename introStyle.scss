@@ -74,6 +74,10 @@ nav .menu a {
 .intro {
   overflow-x: hidden;
 
+  .logo{
+    visibility: hidden;
+  }
+
   .introContainer {
     // margin-top:64px;
     width: 100vw;
