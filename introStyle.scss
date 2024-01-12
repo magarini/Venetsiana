@@ -3,7 +3,7 @@
 $dark: #121212;
 $white: #FFFFFF;
 
-$dark-dimmed: #222222;
+$dark-dimmed: #494949;
 
 
 body {
@@ -53,7 +53,7 @@ a {
 nav a,
 nav .menu a {
   margin: 8px;
-  font-size: 1.2rem;
+  font-size: 24px;
   font-weight: 700;
 }
 
@@ -433,7 +433,7 @@ a.word {
 
 
 a.project:nth-child(even) {
-  margin-top: 40dvw;
+  margin-top: 650px;
 }
 
 
@@ -443,7 +443,7 @@ a.project {
   flex-direction: column;
   align-items: center;
   margin: 32px;
-height:50dvh;
+  height:600px;
 }
 
 .projectTitle {
@@ -463,7 +463,15 @@ height:50dvh;
   align-items: center;
   flex: 1;
   justify-content: space-between;
+
+  .title{
+    font-size: 48px;
+  }
+
+
 }
+
+
 
 .number {
   margin: 0;
@@ -473,7 +481,7 @@ height:50dvh;
 }
 
 .year {
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 400;
   box-sizing: border-box;
 }
@@ -481,7 +489,7 @@ height:50dvh;
 .projectImg {
   width: 100%;
   box-sizing: border-box;
-  height:100%;
+  height:500px;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -492,12 +500,20 @@ height:50dvh;
   box-sizing: border-box;
   height:100%;
   object-fit: cover;
+  // display:none;
+
 }
 
 .projectImg p{
   display:none;
-  font-size: 24px;
+  font-size: 32px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  color:$dark-dimmed;
+  // height:100%;
+  z-index:0;
+  margin:0;
 }
 
 .projectImg img.verticalImg {
@@ -529,7 +545,7 @@ height:50dvh;
 .projectsGrid {
   h1 {
     margin: 96px 32px 24px;
-    font-size: 64px;
+    font-size: 96px;
   }
 
   .projectsContainer {
@@ -701,11 +717,17 @@ a.word {
 
 }
 
+@media only screen and (min-width: 900px) and (max-width:1400px) {
 
+  a.project{
+    .projectImg{
+      height:400px;
+    }
+  }
 
+}
 
-
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   .projectsContainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -723,6 +745,7 @@ a.word {
     z-index: 5;
     flex-direction: column;
   }
+
 
   .burgerMenu {
     width: 100%;
@@ -750,6 +773,27 @@ a.word {
 
   .menu a {
     margin-right: 16px;
+  }
+
+  .projectsGrid h1 {
+    font-size: 64px;
+  }
+
+
+
+  a.project:nth-child(even) {
+    margin-top: 0;
+  }
+  
+  .projectInfo .title {
+    font-size: 32px;
+  }
+
+  a.project{
+    height:400px;
+    .projectImg{
+      height:300px;
+    }
   }
 
 
