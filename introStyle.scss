@@ -207,13 +207,19 @@ nav .menu a {
     display: flex;
     flex-direction: column;
     // align-items: flex-end;
-    padding-left: 16px;
     border-left: 3px solid $white;
     margin: 24px 0;
   }
 
   h3 {
     margin: 0 0 8px;
+    display:flex;
+    align-items: center;
+
+    img{
+      height:24px;
+      margin:0 8px 0 0;
+    }
   }
 
   .projectImgs {
