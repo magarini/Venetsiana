@@ -18,6 +18,7 @@ body {
   font-family: 'Chakra Petch', sans-serif;
   margin: 0;
   padding: 0;
+  // height:100vh;
 }
 
 nav {
@@ -150,7 +151,7 @@ nav .menu a {
   box-sizing: border-box;
 
   h1 {
-    font-size: 96px;
+    font-size: 48px;
   }
 
   .projectDescription {
@@ -426,9 +427,12 @@ a.word {
   // overflow-y: auto;
   box-sizing: border-box;
 
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-auto-rows: auto;
+  // display: grid;
+  // grid-template-columns: 33% 33% 33%;
+  // grid-auto-rows: auto;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 
   h1 {
     font-size: 64px;
@@ -438,18 +442,33 @@ a.word {
 }
 
 
-a.project:nth-child(even) {
-  margin-top: 650px;
+a.project:nth-child(2n) {
+  margin-top: 80px;
 }
 
+a.project:nth-child(3n) {
+  margin-top: 128px;
 
+}
+
+a.project:last-child {
+  margin-top: 48px;
+
+}
+
+.minusPanding{
+  margin-top:-16px!important;
+  margin-left:-56px!important;
+}
 
 a.project {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 32px;
-  height:600px;
+  margin: 56px 32px 32px;
+  // height:150px;
+  // width:350px;
+  box-sizing: border-box;
 }
 
 .projectTitle {
@@ -471,7 +490,7 @@ a.project {
   justify-content: space-between;
 
   .title{
-    font-size: 48px;
+    font-size: 24px;
   }
 
 
@@ -495,10 +514,16 @@ a.project {
 .projectImg {
   width: 100%;
   box-sizing: border-box;
-  height:500px;
+  // height:150px;
+  width:300px;
   display:flex;
   align-items: center;
   justify-content: center;
+}
+
+.projectImg.largeWidth{
+  width:800px;
+  height:auto;
 }
 
 .projectImg img {
@@ -512,7 +537,7 @@ a.project {
 
 .projectImg p{
   display:none;
-  font-size: 32px;
+  font-size: 24px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -550,8 +575,8 @@ a.project {
 
 .projectsGrid {
   h1 {
-    margin: 96px 32px 24px;
-    font-size: 96px;
+    margin:16px;
+    font-size: 48px;
   }
 
   .projectsContainer {
@@ -725,18 +750,18 @@ a.word {
 
 @media only screen and (min-width: 900px) and (max-width:1400px) {
 
-  a.project{
-    .projectImg{
-      height:400px;
-    }
-  }
+  // a.project{
+  //   .projectImg{
+  //     height:400px;
+  //   }
+  // }
 
 }
 
 @media only screen and (max-width: 900px) {
   .projectsContainer {
-    display: grid;
-    grid-template-columns: 1fr;
+    // display: grid;
+    // grid-template-columns: 1fr;
     // grid-auto-rows: 500px;
 
   }
@@ -782,7 +807,7 @@ a.word {
   }
 
   .projectsGrid h1 {
-    font-size: 64px;
+    font-size: 48px;
   }
 
 
@@ -795,12 +820,12 @@ a.word {
     font-size: 32px;
   }
 
-  a.project{
-    height:400px;
-    .projectImg{
-      height:300px;
-    }
-  }
+  // a.project{
+  //   height:400px;
+  //   .projectImg{
+  //     height:300px;
+  //   }
+  // }
 
 
   .intro {
@@ -924,4 +949,45 @@ a.word {
 
 
 
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  .projectView h1 {
+    font-size: 72px;
+}
+
+.projectImg.largeWidth{
+  width:100%;
+}
+
+a.project{
+  margin:16px;
+  width:100%;
+
+  .projectImg{
+    width:100%;
+  }
+}
+
+a.project:nth-child(2n) {
+  margin-top: 32px;
+}
+
+a.project:nth-child(3n) {
+  margin-top: 32px;
+
+}
+
+a.project:last-child {
+  margin-top: 32px;
+
+}
+
+.project.minusPanding{
+  margin:16px;
+  margin-top:32px!important;
+  margin-left:16px!important;
+}
 }
