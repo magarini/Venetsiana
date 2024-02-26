@@ -10,7 +10,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 100vw;
+  // width: 100vw;
+  max-width: 100vw;
   // max-height: 100dvh;
   // overflow-y: auto;
   background-color: $white;
@@ -469,6 +470,7 @@ a.project {
   // height:150px;
   // width:350px;
   box-sizing: border-box;
+  width:20%;
 }
 
 .projectTitle {
@@ -490,7 +492,7 @@ a.project {
   justify-content: space-between;
 
   .title{
-    font-size: 24px;
+    font-size: 20px;
   }
 
 
@@ -515,14 +517,15 @@ a.project {
   width: 100%;
   box-sizing: border-box;
   // height:150px;
-  width:300px;
+  // width:300px;
   display:flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
-.projectImg.largeWidth{
-  width:800px;
+a.project.largeWidth{
+  width:60%;
   height:auto;
 }
 
@@ -537,10 +540,15 @@ a.project {
 
 .projectImg p{
   display:none;
-  font-size: 24px;
+  font-size: 16px;
   text-align: center;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  position:absolute;
+  left:0;
+  right:0;
+
   color:$dark-dimmed;
   // height:100%;
   z-index:0;
@@ -552,16 +560,16 @@ a.project {
   height: 100%;
 }
 
-.projectImg::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  // background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+// .projectImg::after {
+//   content: '';
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   width: 100%;
+//   height: 100%;
+//   // background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 
-}
+// }
 
 // .brightImg {
 //   opacity: 0.7;
@@ -748,15 +756,24 @@ a.word {
 
 }
 
-@media only screen and (min-width: 900px) and (max-width:1400px) {
+@media only screen and (min-width: 960px) and (max-width:1455px) {
 
-  // a.project{
-  //   .projectImg{
-  //     height:400px;
-  //   }
-  // }
+  a.project{
+    margin:24px;
+  }
 
 }
+
+@media only screen and  (max-width:960px) {
+
+  a.project{
+    margin:16px;
+  }
+
+
+
+}
+
 
 @media only screen and (max-width: 900px) {
   .projectsContainer {
@@ -817,7 +834,7 @@ a.word {
   }
   
   .projectInfo .title {
-    font-size: 32px;
+    font-size: 20px;
   }
 
   // a.project{
@@ -952,7 +969,7 @@ a.word {
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 640px) {
 
   .projectView h1 {
     font-size: 72px;
@@ -989,5 +1006,9 @@ a.project:last-child {
   margin:16px;
   margin-top:32px!important;
   margin-left:16px!important;
+}
+
+a.project.largeWidth {
+  width: 100%;
 }
 }
