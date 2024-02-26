@@ -33,7 +33,7 @@ nav {
   position: sticky;
   top: 0;
   background-color: $white;
-  height: 64px;
+  height: 56px;
   z-index: 10;
 }
 
@@ -43,7 +43,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 0 0 8px;
   box-sizing: border-box;
 }
 
@@ -55,7 +54,7 @@ a {
 nav a,
 nav .menu a {
   margin: 8px;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -435,6 +434,8 @@ a.word {
   flex-wrap: wrap;
   justify-content: space-evenly;
 
+  height:calc(100vh - 56px);
+
   h1 {
     font-size: 64px;
     margin: 24px;
@@ -444,11 +445,11 @@ a.word {
 
 
 a.project:nth-child(2n) {
-  margin-top: 80px;
+  margin-top: 32px;
 }
 
 a.project:nth-child(3n) {
-  margin-top: 128px;
+  margin-top: 96px;
 
 }
 
@@ -457,16 +458,16 @@ a.project:last-child {
 
 }
 
-.minusPanding{
+.minusPadding{
   margin-top:-16px!important;
-  margin-left:-56px!important;
+  margin-left:0;
 }
 
 a.project {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 56px 32px 32px;
+  // margin: 56px 32px 32px;
   // height:150px;
   // width:350px;
   box-sizing: border-box;
@@ -590,6 +591,7 @@ a.project.largeWidth{
   .projectsContainer {
     margin-top: 0;
   }
+
 }
 
 // scatter animation generic
@@ -759,7 +761,7 @@ a.word {
 @media only screen and (min-width: 960px) and (max-width:1455px) {
 
   a.project{
-    margin:24px;
+    margin:0 24px;
   }
 
 }
@@ -1002,7 +1004,7 @@ a.project:last-child {
 
 }
 
-.project.minusPanding{
+.projectminusPadding{
   margin:16px;
   margin-top:32px!important;
   margin-left:16px!important;

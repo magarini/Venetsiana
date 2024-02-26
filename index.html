@@ -6,23 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
     <link rel="stylesheet" href="introStyle.css">
 </head>
 
-<body class="testHome">
+<body class="intro">
 
-    <h1> some tests </h1>
+    <nav>
+        <div class="burgerMenu">
+            <a class="logo" href="index.html">Venetsiana Kalampaliki</a>
+            <a class="burger" href="#"
+                onclick="toggleBurger()"><img src="icons/menu.svg" alt="menu"></a>
+        </div>
+        <div class="menu">
+            <a href="works.html" class="scatterMsg active">works</a>
+            <a href="research.html" class="scatterMsg">research</a>
+            <a href="" class="scatterMsg">calendar</a>
+            <a href="about.html" class="scatterMsg">about</a>
+            <a href="" class="scatterMsg">contact</a>
+        </div>
+    </nav>
 
-    <h2>examples</h2>
-    <!-- <a href="scatterLeters.html">scatter letters on hover</a> -->
-    <a href="animateSvg.html">animate text along path</a>
+    <main class="introContainer">
+       <h1 class="scatterIntro">Venetsiana Kalampaliki</h1>
+       <!-- <div class="guide">
+        <div class="guideControl">
+            <img class="icon" src="icons/reset.svg">
+            <p>click to reset</p>
+        </div>
+        <div class="guideControl">
+            <img class="icon" src="icons/movement.svg">
+            <p>turn off animations</p>
+        </div>
 
-    <h2>experimental project page versions</h2>
-    <a href="intro.html">intro page</a>
-    <a href="projectsPage.html">projects as a list</a>
-    <a href="works.html">projects as a grid</a>
-    <a href="texts.html">texts page</a>
+       </div> -->
+    </main>
 
+
+    <script src="scatterAway.js"></script>
+    <script src="general.js"></script>
+
+    <!-- <script src="scatterP5.js"></script> -->
 
 </body>
 
