@@ -86,17 +86,22 @@ nav .menu a {
     height: 96vh;
   }
 
-
-  h1 {
-    font-size: 96px;
+  .introText{
     position: absolute;
     bottom: 24px;
     left: 32px;
+  }
+
+  h1 {
+    font-size: 96px;
     margin: 0;
     // max-width: 500px;
   }
 
-
+  p{
+    max-width: 800px;
+    font-size: 24px;
+  }
 
   .scatterIntro {
     display: flex;
@@ -770,7 +775,7 @@ a.word {
 
 }
 
-@media only screen and (min-width: 960px) and (max-width:1455px) {
+@media only screen and (min-width: 960px) {
 
   a.project{
     margin:0 24px;
@@ -862,11 +867,29 @@ a.word {
   .intro {
     overflow-x: hidden;
 
+    .introText{
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    margin-right: 16px;
+    box-sizing: border-box;
+    }
+  
+    h1 {
+      font-size: 96px;
+      margin: 0;
+      // max-width: 500px;
+    }
+  
+    p{
+      max-width: 800px;
+      font-size: 24px;
+    }
+    // 
+
     h1 {
       font-size: 64px;
-      position: absolute;
-      bottom: 24px;
-      left: 24px;
+
       margin: 0;
       max-width: 360px;
     }
