@@ -65,850 +65,850 @@ a.word .letter::before {
 .project:hover .scatterMsg:hover .letter:nth-child(1), .project:hover .scatterMsg:focus .letter:nth-child(1),
 .project:focus .scatterMsg:hover .letter:nth-child(1),
 .project:focus .scatterMsg:focus .letter:nth-child(1) {
-  --x: 73;
-  --y: -1132;
-  --r: 22;
+  --x: 14;
+  --y: -570;
+  --r: 185;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(1):hover, .project:hover .scatterMsg:focus .letter:nth-child(1):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(1):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(1):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: 44;
-  --y: -148;
-  --r: 19;
+  --x: -548;
+  --y: 65;
+  --r: 72;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(2), .project:hover .scatterMsg:focus .letter:nth-child(2),
 .project:focus .scatterMsg:hover .letter:nth-child(2),
 .project:focus .scatterMsg:focus .letter:nth-child(2) {
-  --x: 89;
-  --y: -335;
-  --r: 356;
+  --x: 68;
+  --y: -491;
+  --r: 105;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(2):hover, .project:hover .scatterMsg:focus .letter:nth-child(2):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(2):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(2):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -45;
-  --y: -522;
-  --r: -81;
+  --x: -420;
+  --y: 62;
+  --r: -414;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(3), .project:hover .scatterMsg:focus .letter:nth-child(3),
 .project:focus .scatterMsg:hover .letter:nth-child(3),
 .project:focus .scatterMsg:focus .letter:nth-child(3) {
-  --x: 81;
-  --y: -921;
-  --r: 192;
+  --x: 21;
+  --y: -1364;
+  --r: 83;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(3):hover, .project:hover .scatterMsg:focus .letter:nth-child(3):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(3):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(3):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -440;
-  --y: 27;
-  --r: -284;
+  --x: -104;
+  --y: -402;
+  --r: -622;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(4), .project:hover .scatterMsg:focus .letter:nth-child(4),
 .project:focus .scatterMsg:hover .letter:nth-child(4),
 .project:focus .scatterMsg:focus .letter:nth-child(4) {
-  --x: 18;
-  --y: -1206;
-  --r: 87;
+  --x: -22;
+  --y: -688;
+  --r: 236;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(4):hover, .project:hover .scatterMsg:focus .letter:nth-child(4):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(4):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(4):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -386;
-  --y: -491;
-  --r: -600;
+  --x: -245;
+  --y: -237;
+  --r: -86;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(5), .project:hover .scatterMsg:focus .letter:nth-child(5),
 .project:focus .scatterMsg:hover .letter:nth-child(5),
 .project:focus .scatterMsg:focus .letter:nth-child(5) {
-  --x: 4;
-  --y: -7;
-  --r: 164;
+  --x: 40;
+  --y: -264;
+  --r: 152;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(5):hover, .project:hover .scatterMsg:focus .letter:nth-child(5):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(5):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(5):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -654;
-  --y: -310;
-  --r: -629;
+  --x: -338;
+  --y: -59;
+  --r: -239;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(6), .project:hover .scatterMsg:focus .letter:nth-child(6),
 .project:focus .scatterMsg:hover .letter:nth-child(6),
 .project:focus .scatterMsg:focus .letter:nth-child(6) {
-  --x: 27;
-  --y: -517;
-  --r: 174;
+  --x: -21;
+  --y: -1374;
+  --r: 144;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(6):hover, .project:hover .scatterMsg:focus .letter:nth-child(6):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(6):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(6):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -579;
-  --y: -164;
-  --r: -422;
+  --x: -552;
+  --y: -86;
+  --r: -135;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(7), .project:hover .scatterMsg:focus .letter:nth-child(7),
 .project:focus .scatterMsg:hover .letter:nth-child(7),
 .project:focus .scatterMsg:focus .letter:nth-child(7) {
-  --x: -13;
-  --y: -1044;
-  --r: 310;
+  --x: -37;
+  --y: -34;
+  --r: 316;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(7):hover, .project:hover .scatterMsg:focus .letter:nth-child(7):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(7):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(7):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -390;
-  --y: -454;
-  --r: -392;
+  --x: -659;
+  --y: -57;
+  --r: -401;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(8), .project:hover .scatterMsg:focus .letter:nth-child(8),
 .project:focus .scatterMsg:hover .letter:nth-child(8),
 .project:focus .scatterMsg:focus .letter:nth-child(8) {
-  --x: 56;
-  --y: -792;
-  --r: 281;
+  --x: -17;
+  --y: -461;
+  --r: 176;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(8):hover, .project:hover .scatterMsg:focus .letter:nth-child(8):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(8):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(8):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -373;
-  --y: -168;
-  --r: -319;
+  --x: -416;
+  --y: 39;
+  --r: -407;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(9), .project:hover .scatterMsg:focus .letter:nth-child(9),
 .project:focus .scatterMsg:hover .letter:nth-child(9),
 .project:focus .scatterMsg:focus .letter:nth-child(9) {
-  --x: 66;
-  --y: -410;
-  --r: 154;
+  --x: 17;
+  --y: -1180;
+  --r: 111;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(9):hover, .project:hover .scatterMsg:focus .letter:nth-child(9):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(9):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(9):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -671;
-  --y: 35;
-  --r: -208;
+  --x: -309;
+  --y: -558;
+  --r: 13;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(10), .project:hover .scatterMsg:focus .letter:nth-child(10),
 .project:focus .scatterMsg:hover .letter:nth-child(10),
 .project:focus .scatterMsg:focus .letter:nth-child(10) {
-  --x: -49;
-  --y: -845;
-  --r: 88;
+  --x: 35;
+  --y: -1236;
+  --r: 44;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(10):hover, .project:hover .scatterMsg:focus .letter:nth-child(10):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(10):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(10):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -595;
-  --y: -274;
-  --r: -3;
+  --x: -72;
+  --y: 80;
+  --r: -601;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(11), .project:hover .scatterMsg:focus .letter:nth-child(11),
 .project:focus .scatterMsg:hover .letter:nth-child(11),
 .project:focus .scatterMsg:focus .letter:nth-child(11) {
-  --x: 42;
-  --y: -203;
-  --r: 321;
+  --x: -39;
+  --y: -462;
+  --r: 226;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(11):hover, .project:hover .scatterMsg:focus .letter:nth-child(11):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(11):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(11):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -58;
-  --y: 50;
-  --r: -659;
+  --x: 94;
+  --y: -56;
+  --r: -188;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(12), .project:hover .scatterMsg:focus .letter:nth-child(12),
 .project:focus .scatterMsg:hover .letter:nth-child(12),
 .project:focus .scatterMsg:focus .letter:nth-child(12) {
-  --x: -28;
-  --y: -916;
-  --r: 184;
+  --x: -46;
+  --y: -428;
+  --r: 67;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(12):hover, .project:hover .scatterMsg:focus .letter:nth-child(12):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(12):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(12):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: 6;
-  --y: -611;
-  --r: -363;
+  --x: -152;
+  --y: -128;
+  --r: -180;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(13), .project:hover .scatterMsg:focus .letter:nth-child(13),
 .project:focus .scatterMsg:hover .letter:nth-child(13),
 .project:focus .scatterMsg:focus .letter:nth-child(13) {
-  --x: 98;
-  --y: -1018;
-  --r: 177;
+  --x: 77;
+  --y: -843;
+  --r: 203;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(13):hover, .project:hover .scatterMsg:focus .letter:nth-child(13):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(13):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(13):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -585;
-  --y: -261;
-  --r: -201;
+  --x: -29;
+  --y: -435;
+  --r: -363;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(14), .project:hover .scatterMsg:focus .letter:nth-child(14),
 .project:focus .scatterMsg:hover .letter:nth-child(14),
 .project:focus .scatterMsg:focus .letter:nth-child(14) {
-  --x: -5;
-  --y: -544;
-  --r: 4;
+  --x: -26;
+  --y: -1270;
+  --r: 185;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(14):hover, .project:hover .scatterMsg:focus .letter:nth-child(14):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(14):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(14):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -534;
-  --y: -87;
-  --r: -89;
+  --x: -494;
+  --y: -12;
+  --r: -520;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(15), .project:hover .scatterMsg:focus .letter:nth-child(15),
 .project:focus .scatterMsg:hover .letter:nth-child(15),
 .project:focus .scatterMsg:focus .letter:nth-child(15) {
-  --x: 35;
-  --y: -979;
-  --r: 1;
+  --x: -20;
+  --y: -393;
+  --r: 128;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(15):hover, .project:hover .scatterMsg:focus .letter:nth-child(15):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(15):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(15):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: 99;
-  --y: -367;
-  --r: -492;
+  --x: 28;
+  --y: -547;
+  --r: -516;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(16), .project:hover .scatterMsg:focus .letter:nth-child(16),
 .project:focus .scatterMsg:hover .letter:nth-child(16),
 .project:focus .scatterMsg:focus .letter:nth-child(16) {
-  --x: -41;
-  --y: -81;
-  --r: 120;
+  --x: -45;
+  --y: -1340;
+  --r: 242;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(16):hover, .project:hover .scatterMsg:focus .letter:nth-child(16):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(16):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(16):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -111;
-  --y: -209;
-  --r: -641;
+  --x: 13;
+  --y: -322;
+  --r: -596;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(17), .project:hover .scatterMsg:focus .letter:nth-child(17),
 .project:focus .scatterMsg:hover .letter:nth-child(17),
 .project:focus .scatterMsg:focus .letter:nth-child(17) {
-  --x: -7;
-  --y: -1325;
-  --r: 49;
+  --x: 75;
+  --y: -1025;
+  --r: 204;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(17):hover, .project:hover .scatterMsg:focus .letter:nth-child(17):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(17):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(17):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -353;
-  --y: 95;
-  --r: -228;
+  --x: -62;
+  --y: -264;
+  --r: -142;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(18), .project:hover .scatterMsg:focus .letter:nth-child(18),
 .project:focus .scatterMsg:hover .letter:nth-child(18),
 .project:focus .scatterMsg:focus .letter:nth-child(18) {
-  --x: 11;
-  --y: -90;
-  --r: 198;
+  --x: 66;
+  --y: -1380;
+  --r: 278;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(18):hover, .project:hover .scatterMsg:focus .letter:nth-child(18):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(18):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(18):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -618;
-  --y: -609;
-  --r: -688;
+  --x: 32;
+  --y: -696;
+  --r: 29;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(19), .project:hover .scatterMsg:focus .letter:nth-child(19),
 .project:focus .scatterMsg:hover .letter:nth-child(19),
 .project:focus .scatterMsg:focus .letter:nth-child(19) {
-  --x: 45;
-  --y: 63;
-  --r: 241;
+  --x: -12;
+  --y: -439;
+  --r: 46;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(19):hover, .project:hover .scatterMsg:focus .letter:nth-child(19):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(19):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(19):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -19;
-  --y: -567;
-  --r: 89;
+  --x: -198;
+  --y: -510;
+  --r: -20;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(20), .project:hover .scatterMsg:focus .letter:nth-child(20),
 .project:focus .scatterMsg:hover .letter:nth-child(20),
 .project:focus .scatterMsg:focus .letter:nth-child(20) {
-  --x: 96;
-  --y: -286;
-  --r: 28;
+  --x: 65;
+  --y: -954;
+  --r: 37;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(20):hover, .project:hover .scatterMsg:focus .letter:nth-child(20):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(20):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(20):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -66;
-  --y: -68;
-  --r: -66;
+  --x: 88;
+  --y: -21;
+  --r: -384;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(21), .project:hover .scatterMsg:focus .letter:nth-child(21),
 .project:focus .scatterMsg:hover .letter:nth-child(21),
 .project:focus .scatterMsg:focus .letter:nth-child(21) {
-  --x: 88;
-  --y: -914;
-  --r: 131;
+  --x: -25;
+  --y: -1062;
+  --r: 89;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(21):hover, .project:hover .scatterMsg:focus .letter:nth-child(21):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(21):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(21):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -473;
-  --y: -680;
-  --r: -597;
+  --x: -96;
+  --y: -677;
+  --r: -648;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(22), .project:hover .scatterMsg:focus .letter:nth-child(22),
 .project:focus .scatterMsg:hover .letter:nth-child(22),
 .project:focus .scatterMsg:focus .letter:nth-child(22) {
-  --x: -49;
-  --y: -1316;
-  --r: 222;
+  --x: -7;
+  --y: -1221;
+  --r: 49;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(22):hover, .project:hover .scatterMsg:focus .letter:nth-child(22):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(22):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(22):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -227;
-  --y: -232;
-  --r: -101;
+  --x: -414;
+  --y: -457;
+  --r: 84;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(23), .project:hover .scatterMsg:focus .letter:nth-child(23),
 .project:focus .scatterMsg:hover .letter:nth-child(23),
 .project:focus .scatterMsg:focus .letter:nth-child(23) {
-  --x: 42;
-  --y: -922;
-  --r: 264;
+  --x: 87;
+  --y: -147;
+  --r: 173;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(23):hover, .project:hover .scatterMsg:focus .letter:nth-child(23):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(23):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(23):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -111;
-  --y: -503;
-  --r: -652;
+  --x: -541;
+  --y: -263;
+  --r: -44;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(24), .project:hover .scatterMsg:focus .letter:nth-child(24),
 .project:focus .scatterMsg:hover .letter:nth-child(24),
 .project:focus .scatterMsg:focus .letter:nth-child(24) {
-  --x: -49;
-  --y: -1045;
-  --r: 328;
+  --x: -5;
+  --y: -1044;
+  --r: 194;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(24):hover, .project:hover .scatterMsg:focus .letter:nth-child(24):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(24):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(24):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -599;
-  --y: -613;
-  --r: -671;
+  --x: -506;
+  --y: -354;
+  --r: -595;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(25), .project:hover .scatterMsg:focus .letter:nth-child(25),
 .project:focus .scatterMsg:hover .letter:nth-child(25),
 .project:focus .scatterMsg:focus .letter:nth-child(25) {
-  --x: -6;
-  --y: -1177;
-  --r: 55;
+  --x: 78;
+  --y: -728;
+  --r: 32;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(25):hover, .project:hover .scatterMsg:focus .letter:nth-child(25):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(25):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(25):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: 63;
-  --y: -145;
-  --r: -22;
+  --x: -262;
+  --y: -587;
+  --r: -489;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(26), .project:hover .scatterMsg:focus .letter:nth-child(26),
 .project:focus .scatterMsg:hover .letter:nth-child(26),
 .project:focus .scatterMsg:focus .letter:nth-child(26) {
-  --x: -7;
-  --y: -378;
-  --r: 308;
+  --x: 36;
+  --y: -911;
+  --r: 51;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(26):hover, .project:hover .scatterMsg:focus .letter:nth-child(26):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(26):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(26):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: 42;
-  --y: 90;
-  --r: -527;
+  --x: -218;
+  --y: -462;
+  --r: -252;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(27), .project:hover .scatterMsg:focus .letter:nth-child(27),
 .project:focus .scatterMsg:hover .letter:nth-child(27),
 .project:focus .scatterMsg:focus .letter:nth-child(27) {
-  --x: -27;
-  --y: -816;
-  --r: 159;
+  --x: -9;
+  --y: -695;
+  --r: 15;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(27):hover, .project:hover .scatterMsg:focus .letter:nth-child(27):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(27):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(27):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: 72;
-  --y: 13;
-  --r: -620;
+  --x: -489;
+  --y: 48;
+  --r: -21;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(28), .project:hover .scatterMsg:focus .letter:nth-child(28),
 .project:focus .scatterMsg:hover .letter:nth-child(28),
 .project:focus .scatterMsg:focus .letter:nth-child(28) {
-  --x: 31;
-  --y: -334;
-  --r: 108;
+  --x: -11;
+  --y: -296;
+  --r: 283;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(28):hover, .project:hover .scatterMsg:focus .letter:nth-child(28):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(28):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(28):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -601;
-  --y: -165;
-  --r: 14;
+  --x: 60;
+  --y: -563;
+  --r: -91;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(29), .project:hover .scatterMsg:focus .letter:nth-child(29),
 .project:focus .scatterMsg:hover .letter:nth-child(29),
 .project:focus .scatterMsg:focus .letter:nth-child(29) {
-  --x: 97;
-  --y: -958;
-  --r: 16;
+  --x: 21;
+  --y: -987;
+  --r: 247;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(29):hover, .project:hover .scatterMsg:focus .letter:nth-child(29):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(29):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(29):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -28;
-  --y: -405;
-  --r: -227;
+  --x: -552;
+  --y: -127;
+  --r: 94;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(30), .project:hover .scatterMsg:focus .letter:nth-child(30),
 .project:focus .scatterMsg:hover .letter:nth-child(30),
 .project:focus .scatterMsg:focus .letter:nth-child(30) {
-  --x: 11;
-  --y: -122;
-  --r: 102;
+  --x: -38;
+  --y: -1357;
+  --r: 319;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(30):hover, .project:hover .scatterMsg:focus .letter:nth-child(30):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(30):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(30):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -452;
-  --y: -452;
-  --r: -49;
+  --x: -541;
+  --y: 73;
+  --r: -604;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(31), .project:hover .scatterMsg:focus .letter:nth-child(31),
 .project:focus .scatterMsg:hover .letter:nth-child(31),
 .project:focus .scatterMsg:focus .letter:nth-child(31) {
-  --x: 15;
-  --y: -1171;
-  --r: 32;
+  --x: -8;
+  --y: -1108;
+  --r: 328;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(31):hover, .project:hover .scatterMsg:focus .letter:nth-child(31):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(31):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(31):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: 23;
-  --y: -674;
-  --r: -291;
+  --x: -394;
+  --y: -686;
+  --r: -236;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(32), .project:hover .scatterMsg:focus .letter:nth-child(32),
 .project:focus .scatterMsg:hover .letter:nth-child(32),
 .project:focus .scatterMsg:focus .letter:nth-child(32) {
-  --x: 8;
-  --y: -69;
-  --r: 177;
+  --x: 85;
+  --y: -944;
+  --r: 255;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(32):hover, .project:hover .scatterMsg:focus .letter:nth-child(32):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(32):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(32):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: 9;
-  --y: 3;
-  --r: -275;
+  --x: -524;
+  --y: 88;
+  --r: -341;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(33), .project:hover .scatterMsg:focus .letter:nth-child(33),
 .project:focus .scatterMsg:hover .letter:nth-child(33),
 .project:focus .scatterMsg:focus .letter:nth-child(33) {
-  --x: 24;
-  --y: -736;
-  --r: 209;
+  --x: 95;
+  --y: -1259;
+  --r: 357;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(33):hover, .project:hover .scatterMsg:focus .letter:nth-child(33):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(33):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(33):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -545;
-  --y: -4;
-  --r: -305;
+  --x: -309;
+  --y: 54;
+  --r: -413;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(34), .project:hover .scatterMsg:focus .letter:nth-child(34),
 .project:focus .scatterMsg:hover .letter:nth-child(34),
 .project:focus .scatterMsg:focus .letter:nth-child(34) {
-  --x: 57;
-  --y: -557;
-  --r: 115;
+  --x: 26;
+  --y: -39;
+  --r: 222;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(34):hover, .project:hover .scatterMsg:focus .letter:nth-child(34):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(34):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(34):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -207;
-  --y: -521;
-  --r: -569;
+  --x: -395;
+  --y: -526;
+  --r: -434;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(35), .project:hover .scatterMsg:focus .letter:nth-child(35),
 .project:focus .scatterMsg:hover .letter:nth-child(35),
 .project:focus .scatterMsg:focus .letter:nth-child(35) {
-  --x: 64;
-  --y: -581;
-  --r: 284;
+  --x: 63;
+  --y: -723;
+  --r: 185;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(35):hover, .project:hover .scatterMsg:focus .letter:nth-child(35):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(35):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(35):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -645;
-  --y: -668;
-  --r: 6;
+  --x: -592;
+  --y: -694;
+  --r: -409;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(36), .project:hover .scatterMsg:focus .letter:nth-child(36),
 .project:focus .scatterMsg:hover .letter:nth-child(36),
 .project:focus .scatterMsg:focus .letter:nth-child(36) {
-  --x: -33;
-  --y: -236;
-  --r: 102;
+  --x: 21;
+  --y: -338;
+  --r: 295;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(36):hover, .project:hover .scatterMsg:focus .letter:nth-child(36):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(36):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(36):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -470;
-  --y: -488;
-  --r: -109;
+  --x: -572;
+  --y: -220;
+  --r: -228;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(37), .project:hover .scatterMsg:focus .letter:nth-child(37),
 .project:focus .scatterMsg:hover .letter:nth-child(37),
 .project:focus .scatterMsg:focus .letter:nth-child(37) {
-  --x: 96;
-  --y: -167;
-  --r: 58;
+  --x: 69;
+  --y: -860;
+  --r: 45;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(37):hover, .project:hover .scatterMsg:focus .letter:nth-child(37):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(37):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(37):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: 39;
-  --y: -222;
-  --r: -559;
+  --x: -674;
+  --y: -700;
+  --r: -374;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(38), .project:hover .scatterMsg:focus .letter:nth-child(38),
 .project:focus .scatterMsg:hover .letter:nth-child(38),
 .project:focus .scatterMsg:focus .letter:nth-child(38) {
-  --x: -46;
-  --y: -398;
-  --r: 71;
+  --x: -31;
+  --y: -298;
+  --r: 7;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(38):hover, .project:hover .scatterMsg:focus .letter:nth-child(38):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(38):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(38):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -113;
-  --y: -390;
-  --r: -183;
+  --x: -427;
+  --y: -175;
+  --r: -426;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(39), .project:hover .scatterMsg:focus .letter:nth-child(39),
 .project:focus .scatterMsg:hover .letter:nth-child(39),
 .project:focus .scatterMsg:focus .letter:nth-child(39) {
-  --x: 3;
-  --y: -720;
-  --r: 270;
+  --x: 62;
+  --y: -375;
+  --r: 81;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(39):hover, .project:hover .scatterMsg:focus .letter:nth-child(39):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(39):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(39):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: 75;
-  --y: -204;
-  --r: -463;
+  --x: -10;
+  --y: -597;
+  --r: -540;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(40), .project:hover .scatterMsg:focus .letter:nth-child(40),
 .project:focus .scatterMsg:hover .letter:nth-child(40),
 .project:focus .scatterMsg:focus .letter:nth-child(40) {
-  --x: 11;
-  --y: -1087;
-  --r: 327;
+  --x: 8;
+  --y: -913;
+  --r: 354;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(40):hover, .project:hover .scatterMsg:focus .letter:nth-child(40):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(40):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(40):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -519;
-  --y: -279;
-  --r: 7;
+  --x: -523;
+  --y: -229;
+  --r: -574;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(41), .project:hover .scatterMsg:focus .letter:nth-child(41),
 .project:focus .scatterMsg:hover .letter:nth-child(41),
 .project:focus .scatterMsg:focus .letter:nth-child(41) {
-  --x: 97;
-  --y: -182;
-  --r: 149;
+  --x: -28;
+  --y: -1204;
+  --r: 31;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(41):hover, .project:hover .scatterMsg:focus .letter:nth-child(41):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(41):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(41):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -210;
-  --y: -355;
-  --r: -347;
+  --x: -304;
+  --y: 88;
+  --r: -399;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(42), .project:hover .scatterMsg:focus .letter:nth-child(42),
 .project:focus .scatterMsg:hover .letter:nth-child(42),
 .project:focus .scatterMsg:focus .letter:nth-child(42) {
-  --x: 25;
-  --y: -935;
-  --r: 71;
+  --x: 60;
+  --y: -520;
+  --r: 105;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(42):hover, .project:hover .scatterMsg:focus .letter:nth-child(42):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(42):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(42):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -466;
-  --y: -573;
-  --r: 59;
+  --x: -640;
+  --y: 19;
+  --r: -149;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(43), .project:hover .scatterMsg:focus .letter:nth-child(43),
 .project:focus .scatterMsg:hover .letter:nth-child(43),
 .project:focus .scatterMsg:focus .letter:nth-child(43) {
-  --x: -24;
-  --y: 84;
-  --r: 336;
+  --x: 7;
+  --y: -1038;
+  --r: 61;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(43):hover, .project:hover .scatterMsg:focus .letter:nth-child(43):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(43):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(43):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -645;
-  --y: 20;
-  --r: -657;
+  --x: -659;
+  --y: -431;
+  --r: -253;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(44), .project:hover .scatterMsg:focus .letter:nth-child(44),
 .project:focus .scatterMsg:hover .letter:nth-child(44),
 .project:focus .scatterMsg:focus .letter:nth-child(44) {
-  --x: -40;
-  --y: -1035;
-  --r: 178;
+  --x: 58;
+  --y: -1026;
+  --r: 327;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(44):hover, .project:hover .scatterMsg:focus .letter:nth-child(44):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(44):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(44):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -46;
-  --y: -127;
-  --r: -30;
+  --x: -628;
+  --y: -643;
+  --r: -169;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(45), .project:hover .scatterMsg:focus .letter:nth-child(45),
 .project:focus .scatterMsg:hover .letter:nth-child(45),
 .project:focus .scatterMsg:focus .letter:nth-child(45) {
-  --x: 85;
-  --y: -1180;
-  --r: 329;
+  --x: 79;
+  --y: -767;
+  --r: 162;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(45):hover, .project:hover .scatterMsg:focus .letter:nth-child(45):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(45):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(45):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -575;
-  --y: 88;
-  --r: -397;
+  --x: -398;
+  --y: -321;
+  --r: -560;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(46), .project:hover .scatterMsg:focus .letter:nth-child(46),
 .project:focus .scatterMsg:hover .letter:nth-child(46),
 .project:focus .scatterMsg:focus .letter:nth-child(46) {
-  --x: 99;
-  --y: -419;
-  --r: 253;
+  --x: 32;
+  --y: -623;
+  --r: 87;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(46):hover, .project:hover .scatterMsg:focus .letter:nth-child(46):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(46):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(46):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -677;
-  --y: 17;
-  --r: -584;
+  --x: -273;
+  --y: -202;
+  --r: -674;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(47), .project:hover .scatterMsg:focus .letter:nth-child(47),
 .project:focus .scatterMsg:hover .letter:nth-child(47),
 .project:focus .scatterMsg:focus .letter:nth-child(47) {
-  --x: 27;
-  --y: -1014;
-  --r: 210;
+  --x: 70;
+  --y: -645;
+  --r: 60;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(47):hover, .project:hover .scatterMsg:focus .letter:nth-child(47):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(47):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(47):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -553;
-  --y: -150;
-  --r: 91;
+  --x: -431;
+  --y: -647;
+  --r: -8;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(48), .project:hover .scatterMsg:focus .letter:nth-child(48),
 .project:focus .scatterMsg:hover .letter:nth-child(48),
 .project:focus .scatterMsg:focus .letter:nth-child(48) {
-  --x: -18;
-  --y: -542;
-  --r: 244;
+  --x: 94;
+  --y: -210;
+  --r: 280;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(48):hover, .project:hover .scatterMsg:focus .letter:nth-child(48):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(48):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(48):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -305;
-  --y: -153;
-  --r: -327;
+  --x: -68;
+  --y: -452;
+  --r: -383;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(49), .project:hover .scatterMsg:focus .letter:nth-child(49),
 .project:focus .scatterMsg:hover .letter:nth-child(49),
 .project:focus .scatterMsg:focus .letter:nth-child(49) {
-  --x: -42;
-  --y: -597;
-  --r: 330;
+  --x: 26;
+  --y: -538;
+  --r: 206;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(49):hover, .project:hover .scatterMsg:focus .letter:nth-child(49):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(49):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(49):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -366;
-  --y: -223;
-  --r: -580;
+  --x: -274;
+  --y: -671;
+  --r: -13;
   --s: 1.8;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(50), .project:hover .scatterMsg:focus .letter:nth-child(50),
 .project:focus .scatterMsg:hover .letter:nth-child(50),
 .project:focus .scatterMsg:focus .letter:nth-child(50) {
-  --x: 44;
-  --y: -52;
-  --r: 298;
+  --x: 78;
+  --y: -332;
+  --r: 125;
 }
 .project:hover .scatterMsg:hover .letter:nth-child(50):hover, .project:hover .scatterMsg:focus .letter:nth-child(50):hover,
 .project:focus .scatterMsg:hover .letter:nth-child(50):hover,
 .project:focus .scatterMsg:focus .letter:nth-child(50):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
-  --x: -562;
-  --y: 31;
-  --r: -461;
+  --x: -39;
+  --y: -419;
+  --r: -412;
   --s: 1.8;
 }/*# sourceMappingURL=projectsPageStyle.css.map */
