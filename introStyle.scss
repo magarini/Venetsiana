@@ -459,6 +459,7 @@ a.word {
   justify-content: space-evenly;
 
   height:calc(100vh - 56px);
+  overflow-y: auto;
 
   h1 {
     font-size: 64px;
