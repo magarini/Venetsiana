@@ -93,14 +93,19 @@ nav .menu a {
   }
 
   h1 {
-    font-size: 96px;
+    // font-size: 96px;
+    font-size: 72px;
+
     margin: 0;
     // max-width: 500px;
   }
 
   p{
     max-width: 800px;
+    // max-width: 1036px;
+
     font-size: 24px;
+    margin:0;
   }
 
   .scatterIntro {
@@ -253,6 +258,8 @@ nav .menu a {
       display: flex;
       position: relative;
       flex-wrap: wrap;
+      color: #414040;
+
     }
 
     .imgLines {
