@@ -567,9 +567,9 @@ a.project.largeWidth{
 .projectImg p{
   display:none;
   font-size: 16px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+  // text-align: center;
+  // align-items: center;
+  // justify-content: center;
   flex-wrap: wrap;
   position:absolute;
   left:0;
@@ -647,7 +647,6 @@ a.word {
       display: block;
       position: absolute;
       bottom: 0;
-      background-color: red;
     }
   }
 }
@@ -660,10 +659,12 @@ a.word {
 }
 
 
-.scatterMsg {
-  font-size: 2rem;
+//homepage scattering
+
+.projectsContainer .scatterMsg .word{
+  // font-size: 2rem;
   z-index: 2;
-  margin-right: 24px;
+  // margin-right: 24px;
   display: flex;
   flex-wrap: wrap;
 
@@ -779,6 +780,17 @@ a.word {
   .scatterIntro {
     margin-left: 144px;
     font-size: 24px;
+  }
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+  a.project{
+    margin:0 24px;
+    .projectImg p{
+      font-size:14px;
+    }
   }
 
 }
