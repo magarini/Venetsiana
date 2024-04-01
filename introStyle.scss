@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
+
 
 $dark: #212121;
 $white: #FFFFFF;
@@ -16,7 +18,7 @@ body {
   // overflow-y: auto;
   background-color: $white;
   color: $dark;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Inclusive Sans", sans-serif;;
   margin: 0;
   padding: 0;
   overflow: hidden;
