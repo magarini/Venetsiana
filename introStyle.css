@@ -132,54 +132,54 @@ nav .menu a {
   animation: wobble 0.3s infinite;
 }
 .intro .menu .scatterMsg .letter:nth-child(1) {
-  --x: 28;
-  --y: -2;
-  --r: -2;
+  --x: -1;
+  --y: 22;
+  --r: 12;
 }
 .intro .menu .scatterMsg .letter:nth-child(2) {
-  --x: 9;
-  --y: 9;
-  --r: -6;
+  --x: 8;
+  --y: 29;
+  --r: 11;
 }
 .intro .menu .scatterMsg .letter:nth-child(3) {
-  --x: 17;
-  --y: 16;
-  --r: 15;
-}
-.intro .menu .scatterMsg .letter:nth-child(4) {
-  --x: 1;
-  --y: 0;
-  --r: 21;
-}
-.intro .menu .scatterMsg .letter:nth-child(5) {
-  --x: -2;
-  --y: 4;
-  --r: -7;
-}
-.intro .menu .scatterMsg .letter:nth-child(6) {
-  --x: -9;
-  --y: -7;
-  --r: 17;
-}
-.intro .menu .scatterMsg .letter:nth-child(7) {
-  --x: 30;
-  --y: 19;
+  --x: 11;
+  --y: -6;
   --r: 7;
 }
-.intro .menu .scatterMsg .letter:nth-child(8) {
-  --x: -6;
+.intro .menu .scatterMsg .letter:nth-child(4) {
+  --x: 8;
   --y: 12;
-  --r: -4;
+  --r: 28;
+}
+.intro .menu .scatterMsg .letter:nth-child(5) {
+  --x: 2;
+  --y: -2;
+  --r: 13;
+}
+.intro .menu .scatterMsg .letter:nth-child(6) {
+  --x: 3;
+  --y: 28;
+  --r: -3;
+}
+.intro .menu .scatterMsg .letter:nth-child(7) {
+  --x: -6;
+  --y: -7;
+  --r: -1;
+}
+.intro .menu .scatterMsg .letter:nth-child(8) {
+  --x: 0;
+  --y: 15;
+  --r: 7;
 }
 .intro .menu .scatterMsg .letter:nth-child(9) {
-  --x: 9;
+  --x: 11;
   --y: 22;
-  --r: 5;
+  --r: -6;
 }
 .intro .menu .scatterMsg .letter:nth-child(10) {
-  --x: 14;
-  --y: -6;
-  --r: -4;
+  --x: 8;
+  --y: 22;
+  --r: -5;
 }
 .intro .menu .scatterMsg:hover, .intro .menu .scatterMsg:focus {
   opacity: 1;
@@ -535,9 +535,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:hover:focus .letter:nth-child(1),
 .texts .project .scatterMsg:focus:hover .letter:nth-child(1),
 .texts .project .scatterMsg:focus:focus .letter:nth-child(1) {
-  --x: -6;
-  --y: -5;
-  --r: -18;
+  --x: -13;
+  --y: -3;
+  --r: 19;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(1):hover, .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(1):focus, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(1):hover, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(1):focus, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(1):hover, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(1):focus, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(1):hover, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(1):focus,
 .texts .project .scatterMsg:hover:hover .letter:nth-child(1):hover,
@@ -550,9 +550,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:focus:focus .letter:nth-child(1):focus {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 2;
+  --x: -6;
   --y: 3;
-  --r: 1;
+  --r: -1;
   --s: 1.25;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(2), .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(2), .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(2), .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(2),
@@ -560,9 +560,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:hover:focus .letter:nth-child(2),
 .texts .project .scatterMsg:focus:hover .letter:nth-child(2),
 .texts .project .scatterMsg:focus:focus .letter:nth-child(2) {
-  --x: 0;
+  --x: 3;
   --y: 3;
-  --r: -5;
+  --r: -8;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(2):hover, .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(2):focus, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(2):hover, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(2):focus, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(2):hover, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(2):focus, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(2):hover, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(2):focus,
 .texts .project .scatterMsg:hover:hover .letter:nth-child(2):hover,
@@ -575,9 +575,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:focus:focus .letter:nth-child(2):focus {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -4;
-  --y: -7;
-  --r: 7;
+  --x: -2;
+  --y: -9;
+  --r: -8;
   --s: 1.25;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(3), .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(3), .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(3), .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(3),
@@ -585,9 +585,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:hover:focus .letter:nth-child(3),
 .texts .project .scatterMsg:focus:hover .letter:nth-child(3),
 .texts .project .scatterMsg:focus:focus .letter:nth-child(3) {
-  --x: 7;
-  --y: -11;
-  --r: -16;
+  --x: -16;
+  --y: -10;
+  --r: 12;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(3):hover, .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(3):focus, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(3):hover, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(3):focus, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(3):hover, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(3):focus, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(3):hover, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(3):focus,
 .texts .project .scatterMsg:hover:hover .letter:nth-child(3):hover,
@@ -600,8 +600,8 @@ a.word .letter::before {
 .texts .project .scatterMsg:focus:focus .letter:nth-child(3):focus {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 1;
-  --y: 8;
+  --x: -2;
+  --y: -7;
   --r: -1;
   --s: 1.25;
 }
@@ -610,9 +610,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:hover:focus .letter:nth-child(4),
 .texts .project .scatterMsg:focus:hover .letter:nth-child(4),
 .texts .project .scatterMsg:focus:focus .letter:nth-child(4) {
-  --x: -5;
-  --y: 11;
-  --r: -13;
+  --x: 8;
+  --y: 4;
+  --r: 8;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(4):hover, .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(4):focus, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(4):hover, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(4):focus, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(4):hover, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(4):focus, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(4):hover, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(4):focus,
 .texts .project .scatterMsg:hover:hover .letter:nth-child(4):hover,
@@ -625,9 +625,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:focus:focus .letter:nth-child(4):focus {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 0;
-  --y: 10;
-  --r: 3;
+  --x: -8;
+  --y: 4;
+  --r: -6;
   --s: 1.25;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(5), .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(5), .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(5), .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(5),
@@ -635,9 +635,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:hover:focus .letter:nth-child(5),
 .texts .project .scatterMsg:focus:hover .letter:nth-child(5),
 .texts .project .scatterMsg:focus:focus .letter:nth-child(5) {
-  --x: 2;
-  --y: 13;
-  --r: 13;
+  --x: 1;
+  --y: 1;
+  --r: -18;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(5):hover, .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(5):focus, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(5):hover, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(5):focus, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(5):hover, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(5):focus, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(5):hover, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(5):focus,
 .texts .project .scatterMsg:hover:hover .letter:nth-child(5):hover,
@@ -650,9 +650,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:focus:focus .letter:nth-child(5):focus {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 7;
-  --y: 7;
-  --r: -1;
+  --x: 4;
+  --y: -3;
+  --r: 9;
   --s: 1.25;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(6), .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(6), .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(6), .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(6),
@@ -660,9 +660,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:hover:focus .letter:nth-child(6),
 .texts .project .scatterMsg:focus:hover .letter:nth-child(6),
 .texts .project .scatterMsg:focus:focus .letter:nth-child(6) {
-  --x: 10;
-  --y: 2;
-  --r: -11;
+  --x: 0;
+  --y: -11;
+  --r: 0;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(6):hover, .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(6):focus, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(6):hover, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(6):focus, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(6):hover, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(6):focus, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(6):hover, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(6):focus,
 .texts .project .scatterMsg:hover:hover .letter:nth-child(6):hover,
@@ -675,9 +675,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:focus:focus .letter:nth-child(6):focus {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 8;
-  --y: 0;
-  --r: -9;
+  --x: -6;
+  --y: -6;
+  --r: -8;
   --s: 1.25;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(7), .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(7), .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(7), .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(7),
@@ -685,9 +685,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:hover:focus .letter:nth-child(7),
 .texts .project .scatterMsg:focus:hover .letter:nth-child(7),
 .texts .project .scatterMsg:focus:focus .letter:nth-child(7) {
-  --x: 10;
-  --y: -11;
-  --r: 16;
+  --x: 14;
+  --y: 0;
+  --r: -6;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(7):hover, .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(7):focus, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(7):hover, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(7):focus, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(7):hover, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(7):focus, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(7):hover, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(7):focus,
 .texts .project .scatterMsg:hover:hover .letter:nth-child(7):hover,
@@ -700,9 +700,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:focus:focus .letter:nth-child(7):focus {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -7;
-  --y: 0;
-  --r: -5;
+  --x: -5;
+  --y: -5;
+  --r: 10;
   --s: 1.25;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(8), .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(8), .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(8), .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(8),
@@ -710,9 +710,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:hover:focus .letter:nth-child(8),
 .texts .project .scatterMsg:focus:hover .letter:nth-child(8),
 .texts .project .scatterMsg:focus:focus .letter:nth-child(8) {
-  --x: 15;
-  --y: 9;
-  --r: -1;
+  --x: 11;
+  --y: 10;
+  --r: 16;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(8):hover, .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(8):focus, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(8):hover, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(8):focus, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(8):hover, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(8):focus, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(8):hover, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(8):focus,
 .texts .project .scatterMsg:hover:hover .letter:nth-child(8):hover,
@@ -725,9 +725,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:focus:focus .letter:nth-child(8):focus {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -2;
-  --y: -4;
-  --r: -9;
+  --x: 2;
+  --y: 1;
+  --r: -2;
   --s: 1.25;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(9), .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(9), .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(9), .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(9),
@@ -735,9 +735,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:hover:focus .letter:nth-child(9),
 .texts .project .scatterMsg:focus:hover .letter:nth-child(9),
 .texts .project .scatterMsg:focus:focus .letter:nth-child(9) {
-  --x: -9;
-  --y: -2;
-  --r: -18;
+  --x: -18;
+  --y: -5;
+  --r: 14;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(9):hover, .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(9):focus, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(9):hover, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(9):focus, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(9):hover, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(9):focus, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(9):hover, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(9):focus,
 .texts .project .scatterMsg:hover:hover .letter:nth-child(9):hover,
@@ -750,9 +750,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:focus:focus .letter:nth-child(9):focus {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 7;
+  --x: -4;
   --y: 9;
-  --r: -3;
+  --r: 10;
   --s: 1.25;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(10), .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(10), .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(10), .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(10),
@@ -760,9 +760,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:hover:focus .letter:nth-child(10),
 .texts .project .scatterMsg:focus:hover .letter:nth-child(10),
 .texts .project .scatterMsg:focus:focus .letter:nth-child(10) {
-  --x: -3;
-  --y: 10;
-  --r: -13;
+  --x: -12;
+  --y: -19;
+  --r: 2;
 }
 .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(10):hover, .projectsGrid .menu .scatterMsg:hover:hover .letter:nth-child(10):focus, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(10):hover, .projectsGrid .menu .scatterMsg:hover:focus .letter:nth-child(10):focus, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(10):hover, .projectsGrid .menu .scatterMsg:focus:hover .letter:nth-child(10):focus, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(10):hover, .projectsGrid .menu .scatterMsg:focus:focus .letter:nth-child(10):focus,
 .texts .project .scatterMsg:hover:hover .letter:nth-child(10):hover,
@@ -775,9 +775,9 @@ a.word .letter::before {
 .texts .project .scatterMsg:focus:focus .letter:nth-child(10):focus {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 6;
-  --y: -4;
-  --r: 0;
+  --x: 1;
+  --y: 7;
+  --r: 8;
   --s: 1.25;
 }
 
@@ -965,1303 +965,1303 @@ a.word .letter::before {
   opacity: 1;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(1), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(1), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(1), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(1) {
-  --x: -19;
-  --y: 21;
-  --r: 237;
+  --x: 36;
+  --y: -115;
+  --r: 204;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(1):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(1):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(1):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(1):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -204;
-  --y: -125;
-  --r: -113;
+  --x: -8;
+  --y: -365;
+  --r: -253;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(2), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(2), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(2), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(2) {
-  --x: 17;
-  --y: -229;
-  --r: 6;
+  --x: 97;
+  --y: -277;
+  --r: 110;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(2):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(2):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(2):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(2):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -334;
-  --y: 15;
-  --r: -328;
+  --x: -151;
+  --y: 30;
+  --r: -291;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(3), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(3), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(3), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(3) {
-  --x: -33;
-  --y: 30;
-  --r: 246;
+  --x: 84;
+  --y: -170;
+  --r: 165;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(3):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(3):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(3):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(3):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 20;
-  --y: -392;
-  --r: -361;
+  --x: -247;
+  --y: -200;
+  --r: -37;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(4), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(4), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(4), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(4) {
-  --x: 46;
-  --y: -153;
-  --r: 246;
+  --x: 42;
+  --y: 60;
+  --r: 92;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(4):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(4):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(4):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(4):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -108;
-  --y: -341;
-  --r: -77;
+  --x: -225;
+  --y: -265;
+  --r: -99;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(5), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(5), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(5), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(5) {
-  --x: 71;
-  --y: -39;
-  --r: 224;
+  --x: -46;
+  --y: -123;
+  --r: 299;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(5):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(5):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(5):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(5):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -397;
-  --y: -280;
-  --r: -386;
+  --x: -193;
+  --y: -313;
+  --r: -371;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(6), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(6), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(6), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(6) {
-  --x: 17;
-  --y: 17;
-  --r: 169;
+  --x: 12;
+  --y: -54;
+  --r: 346;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(6):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(6):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(6):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(6):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -393;
-  --y: -308;
-  --r: 73;
+  --x: 62;
+  --y: -400;
+  --r: -188;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(7), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(7), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(7), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(7) {
-  --x: 60;
-  --y: -109;
-  --r: 266;
+  --x: 88;
+  --y: -198;
+  --r: 288;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(7):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(7):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(7):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(7):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -228;
-  --y: 27;
-  --r: -379;
+  --x: -199;
+  --y: -293;
+  --r: -274;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(8), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(8), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(8), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(8) {
-  --x: -95;
-  --y: -246;
-  --r: 21;
+  --x: -12;
+  --y: -201;
+  --r: 161;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(8):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(8):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(8):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(8):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -388;
-  --y: -145;
-  --r: -63;
+  --x: -103;
+  --y: -14;
+  --r: -165;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(9), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(9), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(9), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(9) {
-  --x: 97;
-  --y: -36;
-  --r: 121;
+  --x: -63;
+  --y: -10;
+  --r: 110;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(9):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(9):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(9):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(9):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -50;
-  --y: 41;
-  --r: -193;
+  --x: -83;
+  --y: -392;
+  --r: -249;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(10), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(10), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(10), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(10) {
-  --x: 93;
-  --y: -238;
-  --r: 244;
+  --x: 49;
+  --y: -89;
+  --r: 125;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(10):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(10):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(10):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(10):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -287;
-  --y: 54;
-  --r: -274;
+  --x: 23;
+  --y: -23;
+  --r: -280;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(11), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(11), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(11), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(11) {
-  --x: 23;
-  --y: -47;
-  --r: 272;
+  --x: 1;
+  --y: -44;
+  --r: 7;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(11):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(11):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(11):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(11):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -292;
-  --y: 3;
-  --r: -130;
+  --x: 73;
+  --y: -41;
+  --r: -125;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(12), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(12), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(12), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(12) {
-  --x: 87;
-  --y: 3;
-  --r: 312;
+  --x: -30;
+  --y: -267;
+  --r: 179;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(12):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(12):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(12):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(12):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -15;
-  --y: -298;
-  --r: -205;
+  --x: -247;
+  --y: -259;
+  --r: 25;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(13), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(13), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(13), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(13) {
-  --x: -64;
-  --y: -114;
-  --r: 264;
+  --x: 33;
+  --y: -38;
+  --r: 204;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(13):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(13):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(13):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(13):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 42;
-  --y: -58;
-  --r: -154;
+  --x: -201;
+  --y: -53;
+  --r: 29;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(14), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(14), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(14), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(14) {
-  --x: 85;
-  --y: -134;
-  --r: 137;
+  --x: 46;
+  --y: -227;
+  --r: 101;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(14):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(14):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(14):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(14):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -142;
-  --y: -95;
-  --r: -93;
+  --x: -292;
+  --y: -39;
+  --r: -228;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(15), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(15), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(15), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(15) {
-  --x: 4;
-  --y: 22;
-  --r: 236;
+  --x: 76;
+  --y: 20;
+  --r: 142;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(15):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(15):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(15):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(15):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -62;
-  --y: -183;
-  --r: -367;
+  --x: -294;
+  --y: -112;
+  --r: 36;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(16), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(16), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(16), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(16) {
-  --x: -19;
-  --y: 76;
-  --r: 320;
+  --x: 26;
+  --y: -23;
+  --r: 267;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(16):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(16):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(16):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(16):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -18;
-  --y: -192;
-  --r: -229;
+  --x: -375;
+  --y: -336;
+  --r: -362;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(17), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(17), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(17), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(17) {
   --x: -31;
-  --y: 8;
-  --r: 43;
+  --y: -70;
+  --r: 211;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(17):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(17):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(17):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(17):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -399;
-  --y: -5;
-  --r: 56;
+  --x: -342;
+  --y: -33;
+  --r: -144;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(18), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(18), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(18), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(18) {
-  --x: 72;
-  --y: -20;
-  --r: 189;
+  --x: 52;
+  --y: 86;
+  --r: 146;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(18):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(18):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(18):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(18):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 43;
-  --y: -224;
-  --r: -109;
+  --x: -245;
+  --y: -297;
+  --r: -5;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(19), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(19), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(19), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(19) {
-  --x: -2;
-  --y: -257;
-  --r: 28;
+  --x: 17;
+  --y: -223;
+  --r: 105;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(19):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(19):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(19):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(19):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 54;
-  --y: 78;
-  --r: 22;
+  --x: -99;
+  --y: -11;
+  --r: -395;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(20), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(20), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(20), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(20) {
-  --x: -25;
-  --y: -229;
-  --r: 132;
+  --x: -28;
+  --y: -262;
+  --r: 51;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(20):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(20):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(20):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(20):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -398;
-  --y: -251;
-  --r: -236;
+  --x: -110;
+  --y: -357;
+  --r: 89;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(21), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(21), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(21), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(21) {
-  --x: 39;
-  --y: -6;
-  --r: 357;
+  --x: 99;
+  --y: -284;
+  --r: 215;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(21):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(21):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(21):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(21):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -191;
-  --y: -81;
-  --r: -356;
+  --x: 8;
+  --y: -335;
+  --r: -49;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(22), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(22), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(22), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(22) {
-  --x: -84;
-  --y: -238;
-  --r: 90;
+  --x: -10;
+  --y: -284;
+  --r: 332;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(22):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(22):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(22):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(22):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -111;
-  --y: -140;
-  --r: -309;
+  --x: -215;
+  --y: -387;
+  --r: -164;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(23), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(23), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(23), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(23) {
-  --x: -100;
-  --y: -30;
-  --r: 314;
+  --x: 0;
+  --y: -188;
+  --r: 136;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(23):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(23):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(23):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(23):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -329;
-  --y: -171;
-  --r: -169;
+  --x: -224;
+  --y: -380;
+  --r: -205;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(24), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(24), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(24), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(24) {
-  --x: -21;
-  --y: 28;
-  --r: 136;
+  --x: -59;
+  --y: -29;
+  --r: 213;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(24):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(24):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(24):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(24):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -177;
-  --y: -321;
-  --r: 26;
+  --x: 96;
+  --y: -93;
+  --r: -352;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(25), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(25), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(25), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(25) {
-  --x: 35;
-  --y: -57;
-  --r: 12;
+  --x: 66;
+  --y: -279;
+  --r: 46;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(25):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(25):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(25):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(25):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 13;
-  --y: -303;
-  --r: 64;
+  --x: -384;
+  --y: -384;
+  --r: 63;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(26), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(26), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(26), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(26) {
-  --x: 38;
-  --y: -55;
-  --r: 288;
+  --x: -25;
+  --y: -54;
+  --r: 335;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(26):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(26):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(26):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(26):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -43;
-  --y: -180;
-  --r: 41;
+  --x: -300;
+  --y: -216;
+  --r: -81;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(27), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(27), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(27), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(27) {
-  --x: -87;
-  --y: -139;
-  --r: 248;
+  --x: -21;
+  --y: -41;
+  --r: 345;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(27):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(27):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(27):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(27):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -56;
-  --y: -265;
-  --r: -51;
+  --x: -254;
+  --y: -207;
+  --r: -162;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(28), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(28), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(28), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(28) {
-  --x: -100;
-  --y: 31;
-  --r: 117;
+  --x: 49;
+  --y: -189;
+  --r: 254;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(28):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(28):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(28):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(28):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -85;
-  --y: -387;
-  --r: -122;
+  --x: -372;
+  --y: 16;
+  --r: -182;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(29), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(29), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(29), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(29) {
-  --x: -40;
-  --y: -88;
-  --r: 287;
+  --x: 97;
+  --y: -192;
+  --r: 144;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(29):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(29):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(29):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(29):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -203;
-  --y: -163;
-  --r: 99;
+  --x: -362;
+  --y: -340;
+  --r: -185;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(30), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(30), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(30), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(30) {
-  --x: 75;
-  --y: -233;
-  --r: 241;
+  --x: -84;
+  --y: -182;
+  --r: 260;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(30):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(30):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(30):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(30):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -193;
-  --y: -279;
-  --r: -311;
+  --x: -232;
+  --y: 7;
+  --r: -168;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(31), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(31), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(31), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(31) {
-  --x: -92;
-  --y: -141;
-  --r: 151;
+  --x: 39;
+  --y: -152;
+  --r: 178;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(31):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(31):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(31):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(31):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -146;
-  --y: -96;
-  --r: 92;
+  --x: -108;
+  --y: -303;
+  --r: -219;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(32), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(32), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(32), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(32) {
-  --x: -14;
-  --y: -250;
-  --r: 261;
+  --x: -27;
+  --y: 7;
+  --r: 141;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(32):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(32):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(32):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(32):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 13;
-  --y: -156;
-  --r: 64;
+  --x: 59;
+  --y: -355;
+  --r: 6;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(33), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(33), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(33), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(33) {
-  --x: -35;
-  --y: -108;
-  --r: 4;
+  --x: 7;
+  --y: 46;
+  --r: 80;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(33):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(33):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(33):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(33):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -331;
-  --y: -328;
-  --r: -248;
+  --x: -95;
+  --y: 58;
+  --r: -188;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(34), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(34), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(34), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(34) {
-  --x: -6;
-  --y: -248;
-  --r: 36;
+  --x: 12;
+  --y: -219;
+  --r: 242;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(34):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(34):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(34):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(34):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -67;
-  --y: -175;
-  --r: 70;
+  --x: -262;
+  --y: -50;
+  --r: -126;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(35), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(35), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(35), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(35) {
-  --x: -46;
-  --y: 4;
-  --r: 210;
+  --x: -21;
+  --y: 9;
+  --r: 88;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(35):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(35):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(35):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(35):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -11;
-  --y: 1;
-  --r: -199;
+  --x: -183;
+  --y: -247;
+  --r: -293;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(36), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(36), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(36), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(36) {
-  --x: -83;
-  --y: 12;
-  --r: 327;
+  --x: -36;
+  --y: -195;
+  --r: 182;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(36):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(36):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(36):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(36):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -156;
-  --y: -206;
-  --r: -389;
+  --x: -121;
+  --y: 98;
+  --r: -39;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(37), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(37), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(37), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(37) {
-  --x: 93;
-  --y: -252;
-  --r: 239;
+  --x: 48;
+  --y: -79;
+  --r: 87;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(37):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(37):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(37):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(37):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -325;
-  --y: -199;
-  --r: 25;
+  --x: -3;
+  --y: -186;
+  --r: -275;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(38), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(38), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(38), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(38) {
-  --x: 0;
-  --y: -78;
-  --r: 287;
+  --x: -68;
+  --y: 46;
+  --r: 115;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(38):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(38):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(38):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(38):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 59;
-  --y: -355;
-  --r: -304;
+  --x: -256;
+  --y: -172;
+  --r: -128;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(39), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(39), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(39), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(39) {
-  --x: -28;
-  --y: -292;
-  --r: 56;
+  --x: -13;
+  --y: -33;
+  --r: 42;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(39):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(39):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(39):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(39):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -95;
-  --y: 16;
-  --r: -307;
+  --x: -354;
+  --y: 2;
+  --r: -335;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(40), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(40), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(40), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(40) {
-  --x: -49;
-  --y: -298;
-  --r: 107;
+  --x: 62;
+  --y: -133;
+  --r: 253;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(40):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(40):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(40):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(40):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -112;
-  --y: 58;
-  --r: -274;
+  --x: -15;
+  --y: 55;
+  --r: 95;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(41), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(41), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(41), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(41) {
-  --x: -26;
-  --y: 4;
-  --r: 55;
+  --x: -96;
+  --y: -286;
+  --r: 68;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(41):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(41):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(41):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(41):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -158;
-  --y: -195;
-  --r: -386;
+  --x: -325;
+  --y: -16;
+  --r: -115;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(42), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(42), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(42), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(42) {
-  --x: -70;
-  --y: -34;
-  --r: 49;
+  --x: -50;
+  --y: 57;
+  --r: 295;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(42):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(42):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(42):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(42):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 15;
-  --y: -251;
-  --r: -393;
+  --x: -79;
+  --y: 67;
+  --r: -64;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(43), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(43), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(43), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(43) {
-  --x: 8;
-  --y: 29;
-  --r: 279;
+  --x: -62;
+  --y: 4;
+  --r: 329;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(43):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(43):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(43):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(43):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 11;
-  --y: -144;
-  --r: -198;
+  --x: -292;
+  --y: 1;
+  --r: -356;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(44), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(44), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(44), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(44) {
-  --x: 94;
-  --y: -7;
-  --r: 59;
+  --x: 29;
+  --y: -21;
+  --r: 316;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(44):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(44):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(44):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(44):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 53;
-  --y: -246;
-  --r: -158;
+  --x: -168;
+  --y: -46;
+  --r: -204;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(45), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(45), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(45), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(45) {
-  --x: 77;
-  --y: -36;
-  --r: 296;
+  --x: 4;
+  --y: -230;
+  --r: 187;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(45):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(45):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(45):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(45):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -394;
-  --y: 69;
-  --r: -289;
+  --x: -242;
+  --y: -345;
+  --r: -72;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(46), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(46), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(46), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(46) {
-  --x: -48;
-  --y: -55;
-  --r: 359;
+  --x: -9;
+  --y: -272;
+  --r: 299;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(46):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(46):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(46):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(46):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 6;
-  --y: 51;
-  --r: -71;
+  --x: -252;
+  --y: -249;
+  --r: -275;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(47), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(47), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(47), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(47) {
-  --x: 7;
-  --y: -246;
-  --r: 258;
+  --x: -12;
+  --y: -178;
+  --r: 76;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(47):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(47):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(47):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(47):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -101;
-  --y: 82;
-  --r: -188;
+  --x: -53;
+  --y: -127;
+  --r: -169;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(48), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(48), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(48), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(48) {
-  --x: 64;
-  --y: 65;
-  --r: 196;
+  --x: 65;
+  --y: -25;
+  --r: 211;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(48):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(48):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(48):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(48):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -340;
-  --y: -384;
-  --r: -263;
+  --x: -201;
+  --y: -221;
+  --r: -295;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(49), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(49), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(49), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(49) {
-  --x: -36;
-  --y: -43;
-  --r: 15;
+  --x: 84;
+  --y: -19;
+  --r: 266;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(49):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(49):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(49):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(49):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -14;
-  --y: -217;
-  --r: -164;
+  --x: -358;
+  --y: 50;
+  --r: -18;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(50), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(50), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(50), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(50) {
-  --x: -60;
-  --y: 37;
-  --r: 18;
+  --x: -8;
+  --y: -170;
+  --r: 130;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(50):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(50):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(50):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(50):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -116;
-  --y: -336;
-  --r: -374;
+  --x: -373;
+  --y: -164;
+  --r: -133;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(51), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(51), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(51), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(51) {
-  --x: 80;
-  --y: -69;
-  --r: 163;
+  --x: -59;
+  --y: -63;
+  --r: 55;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(51):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(51):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(51):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(51):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -57;
-  --y: -110;
-  --r: -287;
+  --x: -64;
+  --y: -14;
+  --r: -352;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(52), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(52), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(52), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(52) {
-  --x: -7;
-  --y: -49;
-  --r: 81;
+  --x: 83;
+  --y: -262;
+  --r: 267;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(52):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(52):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(52):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(52):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 42;
-  --y: -343;
-  --r: -1;
+  --x: -269;
+  --y: -353;
+  --r: -357;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(53), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(53), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(53), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(53) {
-  --x: -10;
-  --y: -130;
-  --r: 250;
+  --x: -37;
+  --y: -226;
+  --r: 38;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(53):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(53):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(53):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(53):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -127;
-  --y: 22;
-  --r: 9;
+  --x: -8;
+  --y: -32;
+  --r: 30;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(54), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(54), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(54), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(54) {
-  --x: 56;
-  --y: -246;
-  --r: 78;
+  --x: -96;
+  --y: -196;
+  --r: 236;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(54):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(54):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(54):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(54):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -233;
-  --y: -339;
-  --r: 89;
+  --x: 41;
+  --y: 55;
+  --r: -308;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(55), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(55), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(55), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(55) {
-  --x: -32;
-  --y: -296;
-  --r: 57;
+  --x: 73;
+  --y: 90;
+  --r: 3;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(55):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(55):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(55):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(55):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 68;
-  --y: 12;
-  --r: -5;
+  --x: -271;
+  --y: -172;
+  --r: -190;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(56), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(56), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(56), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(56) {
-  --x: -91;
-  --y: 63;
-  --r: 13;
+  --x: 70;
+  --y: -251;
+  --r: 183;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(56):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(56):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(56):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(56):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -141;
-  --y: -398;
-  --r: -62;
+  --x: 0;
+  --y: -190;
+  --r: 0;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(57), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(57), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(57), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(57) {
-  --x: 97;
-  --y: 97;
-  --r: 340;
+  --x: -20;
+  --y: 1;
+  --r: 269;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(57):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(57):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(57):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(57):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -76;
-  --y: -372;
-  --r: -95;
+  --x: -86;
+  --y: -231;
+  --r: -4;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(58), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(58), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(58), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(58) {
-  --x: -67;
-  --y: -194;
-  --r: 339;
+  --x: 31;
+  --y: -213;
+  --r: 202;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(58):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(58):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(58):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(58):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 24;
-  --y: -351;
-  --r: 30;
+  --x: -74;
+  --y: -93;
+  --r: 23;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(59), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(59), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(59), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(59) {
-  --x: -65;
-  --y: -143;
-  --r: 155;
+  --x: 52;
+  --y: -131;
+  --r: 282;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(59):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(59):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(59):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(59):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -118;
-  --y: -3;
-  --r: -269;
+  --x: 82;
+  --y: -272;
+  --r: -338;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(60), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(60), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(60), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(60) {
-  --x: -59;
-  --y: 91;
-  --r: 109;
+  --x: -6;
+  --y: -19;
+  --r: 202;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(60):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(60):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(60):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(60):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -236;
-  --y: -351;
-  --r: -211;
+  --x: -81;
+  --y: -117;
+  --r: 97;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(61), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(61), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(61), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(61) {
-  --x: -44;
-  --y: -290;
-  --r: 196;
+  --x: -69;
+  --y: -122;
+  --r: 63;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(61):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(61):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(61):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(61):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 79;
-  --y: 91;
-  --r: -252;
+  --x: -74;
+  --y: -272;
+  --r: -104;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(62), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(62), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(62), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(62) {
-  --x: -62;
-  --y: -127;
-  --r: 170;
+  --x: 37;
+  --y: -159;
+  --r: 317;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(62):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(62):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(62):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(62):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 65;
-  --y: -107;
-  --r: -67;
+  --x: -46;
+  --y: -207;
+  --r: 2;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(63), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(63), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(63), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(63) {
-  --x: -8;
-  --y: -41;
-  --r: 206;
+  --x: 81;
+  --y: -169;
+  --r: 97;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(63):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(63):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(63):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(63):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -288;
-  --y: -343;
-  --r: -222;
+  --x: -392;
+  --y: -166;
+  --r: -137;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(64), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(64), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(64), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(64) {
-  --x: -51;
-  --y: 34;
-  --r: 264;
+  --x: -60;
+  --y: -142;
+  --r: 261;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(64):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(64):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(64):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(64):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -344;
-  --y: 46;
-  --r: -138;
+  --x: 46;
+  --y: -258;
+  --r: -135;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(65), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(65), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(65), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(65) {
-  --x: -48;
-  --y: -10;
-  --r: 108;
+  --x: 56;
+  --y: -41;
+  --r: 180;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(65):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(65):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(65):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(65):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -25;
-  --y: 74;
-  --r: -9;
+  --x: -337;
+  --y: -134;
+  --r: 23;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(66), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(66), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(66), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(66) {
-  --x: 19;
-  --y: -70;
-  --r: 275;
+  --x: -17;
+  --y: -137;
+  --r: 225;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(66):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(66):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(66):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(66):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 14;
-  --y: -120;
-  --r: -366;
+  --x: -312;
+  --y: -361;
+  --r: -231;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(67), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(67), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(67), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(67) {
-  --x: -36;
-  --y: -275;
-  --r: 339;
+  --x: -5;
+  --y: -293;
+  --r: 137;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(67):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(67):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(67):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(67):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -367;
-  --y: 95;
-  --r: -48;
+  --x: -388;
+  --y: -316;
+  --r: -310;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(68), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(68), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(68), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(68) {
-  --x: 54;
-  --y: -96;
-  --r: 200;
+  --x: -5;
+  --y: -74;
+  --r: 262;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(68):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(68):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(68):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(68):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -2;
-  --y: -397;
-  --r: -322;
+  --x: -165;
+  --y: -132;
+  --r: -258;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(69), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(69), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(69), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(69) {
-  --x: 41;
-  --y: -51;
-  --r: 168;
+  --x: -92;
+  --y: -124;
+  --r: 71;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(69):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(69):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(69):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(69):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -129;
-  --y: 78;
-  --r: -375;
+  --x: -271;
+  --y: 29;
+  --r: -306;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(70), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(70), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(70), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(70) {
-  --x: -64;
-  --y: -109;
-  --r: 98;
+  --x: 17;
+  --y: 36;
+  --r: 325;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(70):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(70):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(70):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(70):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -307;
-  --y: -160;
-  --r: -273;
+  --x: -84;
+  --y: -174;
+  --r: -164;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(71), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(71), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(71), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(71) {
-  --x: 11;
-  --y: -123;
-  --r: 175;
+  --x: -77;
+  --y: 9;
+  --r: 42;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(71):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(71):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(71):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(71):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -71;
-  --y: -90;
-  --r: -99;
+  --x: -24;
+  --y: -362;
+  --r: -338;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(72), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(72), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(72), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(72) {
-  --x: -89;
-  --y: 92;
-  --r: 124;
+  --x: 38;
+  --y: 22;
+  --r: 211;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(72):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(72):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(72):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(72):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 67;
-  --y: -45;
-  --r: -358;
+  --x: -382;
+  --y: -193;
+  --r: -135;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(73), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(73), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(73), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(73) {
-  --x: 81;
-  --y: -148;
-  --r: 212;
+  --x: 18;
+  --y: -218;
+  --r: 95;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(73):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(73):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(73):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(73):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 66;
-  --y: -361;
-  --r: 88;
+  --x: -283;
+  --y: -207;
+  --r: 15;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(74), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(74), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(74), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(74) {
-  --x: -45;
-  --y: -141;
-  --r: 288;
+  --x: 1;
+  --y: -143;
+  --r: 218;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(74):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(74):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(74):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(74):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -343;
-  --y: -89;
-  --r: -8;
+  --x: -319;
+  --y: -21;
+  --r: 81;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(75), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(75), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(75), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(75) {
-  --x: 83;
-  --y: -133;
-  --r: 87;
+  --x: -43;
+  --y: -92;
+  --r: 297;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(75):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(75):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(75):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(75):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -58;
-  --y: -341;
-  --r: -149;
+  --x: 21;
+  --y: -362;
+  --r: -198;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(76), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(76), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(76), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(76) {
-  --x: -38;
-  --y: -299;
-  --r: 189;
+  --x: 44;
+  --y: -192;
+  --r: 82;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(76):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(76):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(76):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(76):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -19;
-  --y: 10;
-  --r: -272;
+  --x: -82;
+  --y: -151;
+  --r: 53;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(77), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(77), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(77), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(77) {
-  --x: 97;
+  --x: 72;
   --y: -207;
-  --r: 330;
+  --r: 27;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(77):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(77):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(77):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(77):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -368;
-  --y: -290;
-  --r: -365;
+  --x: -75;
+  --y: 55;
+  --r: -31;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(78), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(78), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(78), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(78) {
-  --x: 53;
-  --y: -270;
-  --r: 190;
+  --x: 91;
+  --y: 79;
+  --r: 256;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(78):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(78):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(78):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(78):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -22;
-  --y: -146;
-  --r: -131;
+  --x: -395;
+  --y: -37;
+  --r: -30;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(79), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(79), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(79), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(79) {
-  --x: -20;
-  --y: -84;
-  --r: 238;
+  --x: -22;
+  --y: -14;
+  --r: 152;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(79):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(79):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(79):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(79):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -242;
-  --y: -227;
-  --r: 12;
+  --x: -123;
+  --y: -111;
+  --r: -92;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(80), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(80), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(80), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(80) {
-  --x: 2;
-  --y: -204;
-  --r: 354;
+  --x: -20;
+  --y: -214;
+  --r: 348;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(80):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(80):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(80):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(80):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -153;
-  --y: -279;
-  --r: -392;
+  --x: 93;
+  --y: -176;
+  --r: -169;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(81), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(81), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(81), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(81) {
-  --x: -59;
-  --y: 49;
-  --r: 44;
+  --x: -33;
+  --y: -63;
+  --r: 242;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(81):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(81):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(81):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(81):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -308;
-  --y: -305;
-  --r: 94;
+  --x: -349;
+  --y: -285;
+  --r: -78;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(82), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(82), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(82), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(82) {
-  --x: -78;
-  --y: -166;
-  --r: 260;
+  --x: -53;
+  --y: 76;
+  --r: 51;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(82):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(82):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(82):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(82):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -266;
-  --y: 71;
-  --r: -37;
+  --x: 17;
+  --y: -3;
+  --r: -305;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(83), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(83), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(83), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(83) {
-  --x: 25;
-  --y: -15;
-  --r: 224;
+  --x: 33;
+  --y: 40;
+  --r: 207;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(83):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(83):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(83):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(83):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -106;
-  --y: -323;
-  --r: -120;
+  --x: -110;
+  --y: -49;
+  --r: -226;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(84), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(84), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(84), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(84) {
-  --x: 97;
-  --y: 43;
-  --r: 333;
+  --x: 44;
+  --y: -80;
+  --r: 217;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(84):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(84):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(84):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(84):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -188;
-  --y: -15;
-  --r: -206;
+  --x: 78;
+  --y: 34;
+  --r: 97;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(85), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(85), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(85), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(85) {
-  --x: 46;
-  --y: -28;
-  --r: 216;
+  --x: -36;
+  --y: 57;
+  --r: 203;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(85):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(85):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(85):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(85):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -12;
-  --y: 22;
-  --r: -140;
+  --x: -347;
+  --y: -114;
+  --r: -70;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(86), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(86), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(86), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(86) {
-  --x: -96;
-  --y: -105;
-  --r: 168;
+  --x: 84;
+  --y: -152;
+  --r: 157;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(86):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(86):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(86):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(86):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -153;
-  --y: 24;
-  --r: -371;
+  --x: 58;
+  --y: -324;
+  --r: -130;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(87), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(87), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(87), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(87) {
-  --x: -45;
-  --y: 89;
-  --r: 69;
+  --x: 57;
+  --y: 93;
+  --r: 191;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(87):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(87):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(87):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(87):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -381;
-  --y: -29;
-  --r: 14;
+  --x: -293;
+  --y: 37;
+  --r: 59;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(88), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(88), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(88), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(88) {
-  --x: 91;
-  --y: -235;
-  --r: 342;
+  --x: 17;
+  --y: -137;
+  --r: 333;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(88):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(88):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(88):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(88):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -90;
-  --y: -228;
-  --r: -49;
+  --x: 71;
+  --y: -58;
+  --r: -242;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(89), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(89), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(89), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(89) {
   --x: -89;
-  --y: 13;
-  --r: 34;
+  --y: -38;
+  --r: 32;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(89):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(89):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(89):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(89):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -372;
-  --y: 81;
-  --r: -183;
+  --x: -240;
+  --y: 23;
+  --r: -195;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(90), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(90), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(90), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(90) {
-  --x: 43;
-  --y: -193;
-  --r: 259;
+  --x: -83;
+  --y: -208;
+  --r: 247;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(90):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(90):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(90):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(90):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -50;
-  --y: -322;
-  --r: 21;
+  --x: -180;
+  --y: -155;
+  --r: -322;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(91), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(91), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(91), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(91) {
-  --x: 18;
-  --y: -175;
-  --r: 12;
+  --x: -95;
+  --y: -240;
+  --r: 134;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(91):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(91):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(91):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(91):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 91;
-  --y: -299;
-  --r: -3;
+  --x: -51;
+  --y: -113;
+  --r: -277;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(92), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(92), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(92), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(92) {
-  --x: 54;
-  --y: -118;
-  --r: 68;
+  --x: -37;
+  --y: 97;
+  --r: 184;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(92):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(92):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(92):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(92):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 42;
-  --y: -41;
-  --r: -57;
+  --x: -341;
+  --y: 64;
+  --r: -388;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(93), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(93), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(93), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(93) {
-  --x: 47;
-  --y: 83;
-  --r: 20;
+  --x: -36;
+  --y: -142;
+  --r: 119;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(93):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(93):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(93):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(93):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -209;
-  --y: -391;
-  --r: -105;
+  --x: -234;
+  --y: -63;
+  --r: 47;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(94), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(94), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(94), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(94) {
-  --x: -43;
-  --y: -61;
-  --r: 84;
+  --x: 20;
+  --y: -294;
+  --r: 276;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(94):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(94):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(94):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(94):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 80;
-  --y: -76;
-  --r: 86;
+  --x: -316;
+  --y: -58;
+  --r: -86;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(95), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(95), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(95), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(95) {
-  --x: -16;
-  --y: -121;
-  --r: 5;
+  --x: 79;
+  --y: -102;
+  --r: 359;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(95):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(95):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(95):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(95):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -54;
-  --y: -131;
-  --r: -216;
+  --x: -237;
+  --y: -174;
+  --r: -166;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(96), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(96), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(96), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(96) {
-  --x: 66;
-  --y: -140;
-  --r: 237;
+  --x: -51;
+  --y: -10;
+  --r: 77;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(96):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(96):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(96):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(96):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -20;
-  --y: 28;
-  --r: -375;
+  --x: -371;
+  --y: -49;
+  --r: -46;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(97), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(97), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(97), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(97) {
-  --x: 18;
-  --y: -246;
-  --r: 206;
+  --x: 63;
+  --y: -14;
+  --r: 53;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(97):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(97):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(97):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(97):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -228;
-  --y: -116;
-  --r: 94;
+  --x: -117;
+  --y: -131;
+  --r: -188;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(98), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(98), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(98), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(98) {
-  --x: -60;
-  --y: -58;
-  --r: 261;
+  --x: 28;
+  --y: 75;
+  --r: 44;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(98):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(98):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(98):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(98):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -255;
-  --y: -42;
-  --r: -33;
+  --x: -359;
+  --y: -205;
+  --r: -23;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(99), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(99), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(99), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(99) {
-  --x: -5;
-  --y: 74;
-  --r: 171;
+  --x: 76;
+  --y: -149;
+  --r: 351;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(99):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(99):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(99):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(99):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: -51;
-  --y: -400;
-  --r: -79;
+  --x: -31;
+  --y: -74;
+  --r: -308;
   --s: 1.8;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(100), .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(100), .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(100), .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(100) {
-  --x: -23;
-  --y: -216;
-  --r: 179;
+  --x: -22;
+  --y: -91;
+  --r: 255;
 }
 .projectsContainer .scatterMsg .word:hover:hover .letter:nth-child(100):hover, .projectsContainer .scatterMsg .word:hover:focus .letter:nth-child(100):hover, .projectsContainer .scatterMsg .word:focus:hover .letter:nth-child(100):hover, .projectsContainer .scatterMsg .word:focus:focus .letter:nth-child(100):hover {
   z-index: 2;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  --x: 97;
-  --y: -200;
-  --r: -38;
+  --x: -95;
+  --y: -373;
+  --r: -263;
   --s: 1.8;
 }
 
@@ -2422,24 +2422,24 @@ a.word .letter::before {
     font-size: 48px;
   }
   .projectView .projectImgs .imgLines:nth-child(1) .scatterIntro {
-    left: 57px !important;
-    top: -24px !important;
+    left: 43px !important;
+    top: -51px !important;
   }
   .projectView .projectImgs .imgLines:nth-child(2) .scatterIntro {
-    left: 6px !important;
-    top: -19px !important;
+    left: 45px !important;
+    top: -60px !important;
   }
   .projectView .projectImgs .imgLines:nth-child(3) .scatterIntro {
-    left: 21px !important;
-    top: -19px !important;
+    left: 4px !important;
+    top: -41px !important;
   }
   .projectView .projectImgs .imgLines:nth-child(4) .scatterIntro {
-    left: 22px !important;
-    top: -40px !important;
+    left: 61px !important;
+    top: -11px !important;
   }
   .projectView .projectImgs .imgLines:nth-child(5) .scatterIntro {
-    left: 6px !important;
-    top: -60px !important;
+    left: 60px !important;
+    top: -58px !important;
   }
 }
 @media only screen and (max-width: 640px) {
@@ -2450,7 +2450,7 @@ a.word .letter::before {
     width: 100%;
   }
   a.project {
-    margin: 16px;
+    margin: 16px !important;
     width: 100%;
   }
   a.project .projectImg {
