@@ -61,12 +61,12 @@ document.querySelectorAll('.scatterIntro .letter').forEach((letter) => {
     letter.addEventListener('mouseover', () => {
         // if (letterPos.x < window.innerWidth - 100 && letterPos.x > 0 && letterPos.y > 0 && letterPos.y < window.innerHeight - 100) {
             letter.style.position = "relative";
-            letter.style.left = `${Math.floor(Math.random(-50, 50) * 100)}px`;
-            letter.style.bottom = `${Math.floor(Math.random(-50, 50) * 100)}px`;
+            letter.style.left = `${Math.floor(Math.random(-20, 20) * 50)}px`;
+            letter.style.top = `${Math.floor(Math.random(-20, 20) * 50)}px`;
             // letter.style.right = `${Math.floor(Math.random(-50, 50) * 100)}px`;
-            letter.style.transform = `rotate(${Math.floor(Math.random(-90, 90) * 100)}deg)`
-            letter.style.mozTransform = `rotate(${Math.floor(Math.random(-90, 90) * 100)}deg)`
-            letter.style.webkitTransform = `rotate(${Math.floor(Math.random(-90, 90) * 100)}deg)`
+            letter.style.transform = `rotate(${Math.floor(Math.random(-30, 30) * 50)}deg)`
+            letter.style.mozTransform = `rotate(${Math.floor(Math.random(-30, 30) * 50)}deg)`
+            letter.style.webkitTransform = `rotate(${Math.floor(Math.random(-30, 30) * 50)}deg)`
         // }
     })
 })
@@ -74,7 +74,7 @@ document.querySelectorAll('.scatterIntro .letter').forEach((letter) => {
 document.addEventListener('click', () => {
     document.querySelectorAll('.scatterIntro .letter').forEach((letter) => {
         letter.style.left = `0px`;
-        letter.style.bottom = `0px`;
+        letter.style.top = `0px`;
         letter.style.right = "0px";
         letter.style.transform = `rotate(0deg)`
 

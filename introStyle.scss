@@ -1,6 +1,4 @@
-// @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 $dark: #212121;
 $white: #FFFFFF;
@@ -18,7 +16,7 @@ body {
   // overflow-y: auto;
   background-color: $white;
   color: $dark;
-  font-family: "Inclusive Sans", sans-serif;;
+  font-family: "EB Garamond", serif;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -57,8 +55,9 @@ a {
 nav a,
 nav .menu a {
   margin: 8px;
-  font-size: 16px;
+  font-size: 24px;
   // font-weight: 700;
+  display: flex;
 }
 
 .burgerMenu {
@@ -83,71 +82,57 @@ nav .menu a {
   }
 
   .menu{
-
+    width:100vw;
+    height:calc(100vh - 230px);
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
  a{
-    font-size: 96px;
-    position:absolute;
+    font-size: 56px;
+    width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    // position:absolute;
   } 
- a:first-child{
-    top: calc(20% - 96px);
-    left:2%;
-  }
 
-  a:nth-child(2){
-    top: calc(45% - 96px);
-    left:8%;
-  }
-  a:nth-child(3){
-    top:  calc(15% - 96px);
-    left:30%;
-    
-  }
-  a:nth-child(4){
-    top: calc(60% - 96px);
-    right:8%;
-  }
-
-  a:nth-child(5){
-    top: calc(25% - 96px);
-    right:2%;
-  }
 }
 
 
   .introContainer {
     // margin-top:64px;
     width: 100vw;
-    height: 96vh;
+    height:100vh;
   }
 
   .introText{
-    position: absolute;
-    bottom: 24px;
-    left: 32px;
+    // position: absolute;
+    // bottom: 24px;
+    // left: 32px;
+    display:flex;
+    flex-direction: column;
   }
 
   h1 {
     font-size: 96px;
     font-weight: 500;
-    margin: 0;
-
+    margin: 40px 16px 8px;
 
     // color:#929292;
     // max-width: 500px;
   }
-
-  p{
-    max-width: 800px;
-    // max-width: 1036px;
-
-    font-size: 24px;
-    margin:0;
+  h2{
+    align-self: center;
   }
+
+  
 
   .scatterIntro {
     display: flex;
     flex-wrap: wrap;
-
+    align-self: center;
+    justify-content: center;
     .word {
       margin-right: 24px;
     }
@@ -155,7 +140,7 @@ nav .menu a {
   }
 
   .menu .scatterMsg{
-    z-index: 2;
+    // z-index: 2;
   
       @root {
         @keyframes wobble {
@@ -185,11 +170,11 @@ nav .menu a {
           }
         }
   
-        @for $i from 1 through 10 {
+        @for $i from 1 through 15 {
           .letter:nth-child(#{$i}) {
-            --x: #{random(40) - 10};
-            --y: #{random(40) - 10};
-            --r: #{random(40) - 10};
+            --x: #{random(1000)-500};
+            --y: #{random(200)-100};
+            --r: #{random(200)-100};
           }
         }
   
@@ -200,7 +185,7 @@ nav .menu a {
     
   
     
-          @for $i from 1 through 10 {
+          @for $i from 1 through 15 {
             .letter:nth-child(#{$i}) {
               --x: #{0};
               --y: #{0};
@@ -208,7 +193,7 @@ nav .menu a {
     
               &:hover,
               &:focus {
-                z-index: 2;
+                // z-index: 2;
                 --x: #{0};
                 --y: #{0};
                 --r: #{0};
@@ -904,6 +889,7 @@ a.word {
 
 @media only screen and (min-width: 960px) {
 
+
   a.project{
     margin:24px;
   }
@@ -911,7 +897,13 @@ a.word {
 }
 
 @media only screen and  (max-width:960px) {
-
+  .intro .menu{
+    width:100vw;
+    height:calc(100vh - 380px);
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+ }
   a.project{
     margin:16px;
   }
@@ -990,11 +982,11 @@ a.word {
     overflow-x: hidden;
 
     .introText{
-    position: absolute;
-    bottom: 16px;
-    left: 16px;
-    margin-right: 16px;
-    box-sizing: border-box;
+    // position: absolute;
+    // bottom: 16px;
+    // left: 16px;
+    // margin-right: 16px;
+    // box-sizing: border-box;
     }
   
     h1 {
@@ -1129,6 +1121,55 @@ a.word {
 
 
 @media only screen and (max-width: 640px) {
+  .intro .menu{
+    width:100vw;
+    height:calc(100vh - 230px);
+    display:flex;
+    flex-direction: column;
+
+ }
+
+ .intro .menu .scatterMsg{
+    // z-index: 2;
+    margin:0;
+
+      @root {
+        @keyframes wobble {
+  
+          0%,
+          100% {
+            transform: translateY(0) rotate(0);
+          }
+  
+          25%,
+          75% {
+            transform: translateY(-10px) rotate(10deg);
+          }
+  
+          50% {
+            transform: translateY(5px) rotate(-5deg);
+          }
+        }
+      }
+  
+    
+  
+        .letter {
+          &::before {
+            // background-color: green;
+            animation: wobble 0.3s infinite;
+          }
+        }
+  
+        @for $i from 1 through 15 {
+          .letter:nth-child(#{$i}) {
+            --x: #{0};
+            --y: #{0};
+            --r: #{0};
+          }
+        }
+
+      }
 
   .projectView h1 {
     font-size: 72px;
