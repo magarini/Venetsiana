@@ -85,30 +85,31 @@ nav .menu a {
   .menu{
 
  a{
-    font-size: 72px;
+    font-size: 96px;
     position:absolute;
   } 
  a:first-child{
-    top: calc(15% - 72px);
-    left:5%;
+    top: calc(20% - 96px);
+    left:2%;
   }
 
   a:nth-child(2){
-    top: calc(40% - 72px);
-    left:20%;
+    top: calc(45% - 96px);
+    left:8%;
   }
   a:nth-child(3){
-    top:  calc(75% - 72px);
-    left:40%;
+    top:  calc(15% - 96px);
+    left:30%;
+    
   }
   a:nth-child(4){
-    top: calc(60% - 72px);
-    right:20%;
+    top: calc(60% - 96px);
+    right:8%;
   }
 
   a:nth-child(5){
-    top: calc(25% - 72px);
-    right:10%;
+    top: calc(25% - 96px);
+    right:2%;
   }
 }
 
@@ -126,10 +127,12 @@ nav .menu a {
   }
 
   h1 {
-    // font-size: 96px;
-    font-size: 72px;
+    font-size: 96px;
     font-weight: 500;
     margin: 0;
+
+
+    // color:#929292;
     // max-width: 500px;
   }
 
@@ -150,6 +153,74 @@ nav .menu a {
     }
 
   }
+
+  .menu .scatterMsg{
+    z-index: 2;
+  
+      @root {
+        @keyframes wobble {
+  
+          0%,
+          100% {
+            transform: translateY(0) rotate(0);
+          }
+  
+          25%,
+          75% {
+            transform: translateY(-10px) rotate(10deg);
+          }
+  
+          50% {
+            transform: translateY(5px) rotate(-5deg);
+          }
+        }
+      }
+  
+    
+  
+        .letter {
+          &::before {
+            // background-color: green;
+            animation: wobble 0.3s infinite;
+          }
+        }
+  
+        @for $i from 1 through 10 {
+          .letter:nth-child(#{$i}) {
+            --x: #{random(40) - 10};
+            --y: #{random(40) - 10};
+            --r: #{random(40) - 10};
+          }
+        }
+  
+  
+        &:hover,
+        &:focus {
+          opacity: 1;
+    
+  
+    
+          @for $i from 1 through 10 {
+            .letter:nth-child(#{$i}) {
+              --x: #{0};
+              --y: #{0};
+              --r: #{0};
+    
+              &:hover,
+              &:focus {
+                z-index: 2;
+                --x: #{0};
+                --y: #{0};
+                --r: #{0};
+              }
+            }
+          }
+        }
+  
+      
+    
+  }
+
 
 }
 
@@ -405,14 +476,14 @@ a.word {
 }
 
 .texts .project .letter,
-.menu .letter {
+.projectsGrid .menu .letter {
   display: inline-block;
   transition: transform 0.2s ease-in-out;
   transform: translate(calc(var(--x, 0) * 1%), calc(var(--y, 0) * 1%)) rotate(calc(var(--r, 0) * 1deg)) scale(var(--s, 1));
 }
 
 
-.menu .scatterMsg,
+.projectsGrid .menu .scatterMsg,
 .texts .project .scatterMsg {
   z-index: 2;
 
@@ -851,12 +922,7 @@ a.word {
 
 
 @media only screen and (max-width: 900px) {
-  .projectsContainer {
-    // display: grid;
-    // grid-template-columns: 1fr;
-    // grid-auto-rows: 500px;
 
-  }
 
   .scatterMsg {
     font-size: 1.5rem;
@@ -1073,7 +1139,7 @@ a.word {
 }
 
 a.project{
-  margin:16px;
+  margin: 16px !important;
   width:100%;
 
   .projectImg{
