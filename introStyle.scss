@@ -1051,6 +1051,9 @@ a.word {
       .imgLines {
         position: static !important;
         width:100%!important;
+     
+    
+
       }
 
       .scatterIntro {
@@ -1121,11 +1124,19 @@ a.word {
 
 
 @media only screen and (max-width: 640px) {
+  .introText h1{
+    margin:32px 8px 0;
+  }
+  
+  
   .intro .menu{
     width:100vw;
-    height:calc(100vh - 230px);
+    height:calc(100vh - 300px);
     display:flex;
     flex-direction: column;
+    a{
+      font-size:32px;
+    }
 
  }
 
