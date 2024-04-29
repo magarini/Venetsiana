@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 $dark: #212121;
-$white: #FFFFFF;
+$white: #F0F0F0;
 
 $dark-dimmed: #494949;
 
@@ -87,6 +87,8 @@ nav .menu a {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding:0 40px 40px;
+    
  a{
     font-size: 56px;
     width: 100%;
@@ -104,6 +106,9 @@ nav .menu a {
     // margin-top:64px;
     width: 100vw;
     height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .introText{
@@ -124,6 +129,8 @@ nav .menu a {
   }
   h2{
     align-self: center;
+    font-size:24px;
+    font-weight:400;
   }
 
   
@@ -133,6 +140,8 @@ nav .menu a {
     flex-wrap: wrap;
     align-self: center;
     justify-content: center;
+    line-height: 1;
+
     .word {
       margin-right: 24px;
     }
@@ -253,7 +262,9 @@ nav .menu a {
   overflow-x: hidden;
 
   h1 {
-    font-size: 48px;
+    font-size: 96px;
+    font-weight:500;
+    margin: 48px 0 16px;
   }
 
   .projectDescription {
@@ -264,7 +275,6 @@ nav .menu a {
 
   .leftCol,
   .rightCol {
-    // height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -327,6 +337,8 @@ nav .menu a {
     margin: 0 0 8px;
     display:flex;
     align-items: center;
+    font-size: 24px;
+    font-weight:500;
 
     img{
       height:24px;
@@ -343,7 +355,7 @@ nav .menu a {
     row-gap: 144px;
 
     .scatterIntro {
-      font-size: 64px;
+      font-size: 56px;
       display: flex;
       position: relative;
       flex-wrap: wrap;
@@ -587,7 +599,7 @@ a.project {
   // width:350px;
   box-sizing: border-box;
   width:20%;
-  min-width:250px;
+  min-width:260px;
 }
 
 .projectTitle {
@@ -609,7 +621,8 @@ a.project {
   justify-content: space-between;
 
   .title{
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 500;
   }
 
 
@@ -881,7 +894,7 @@ a.word {
   a.project{
     margin:0 24px;
     .projectImg p{
-      font-size:14px;
+      font-size:16px;
     }
   }
 
@@ -899,7 +912,7 @@ a.word {
 @media only screen and  (max-width:960px) {
   .intro .menu{
     width:100vw;
-    height:calc(100vh - 380px);
+    height:calc(100vh - 300px);
     display:grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
@@ -915,6 +928,7 @@ a.word {
 
 @media only screen and (max-width: 900px) {
 
+ 
 
   .scatterMsg {
     font-size: 1.5rem;
@@ -981,37 +995,22 @@ a.word {
   .intro {
     overflow-x: hidden;
 
-    .introText{
-    // position: absolute;
-    // bottom: 16px;
-    // left: 16px;
-    // margin-right: 16px;
-    // box-sizing: border-box;
-    }
-  
+
+   
     h1 {
-      font-size: 96px;
-      margin: 0;
-      // max-width: 500px;
+      font-size: 56px;
+      margin:32px 8px 0;
+      max-width: 360px;
     }
+
   
     p{
       max-width: 800px;
       font-size: 24px;
     }
-    // 
 
-    h1 {
-      font-size: 56px;
 
-      margin: 0;
-      max-width: 360px;
-    }
 
-    .guide {
-      top: 16px;
-      right: 16px;
-    }
   }
 
 
@@ -1124,9 +1123,7 @@ a.word {
 
 
 @media only screen and (max-width: 640px) {
-  .introText h1{
-    margin:32px 8px 0;
-  }
+ 
   
   
   .intro .menu{
