@@ -87,7 +87,7 @@ nav .menu a {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    padding:0 40px 40px;
+    padding:0 64px 40px;
     
  a{
     font-size: 56px;
@@ -131,6 +131,7 @@ nav .menu a {
     align-self: center;
     font-size:24px;
     font-weight:400;
+    margin:8px;
   }
 
   
