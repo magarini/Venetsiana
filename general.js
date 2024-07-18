@@ -11,7 +11,7 @@ function toggleBurger() {
 
     } else {
       menu.style.display = "flex";
-      navBar.style.background="#FFFFFF"
+      navBar.style.background="#F0F0F0"
       x.innerHTML='<img src="icons/close.svg">';
 
 
