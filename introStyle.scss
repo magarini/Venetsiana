@@ -881,6 +881,8 @@ a.word {
   h1 {
     margin: 24px;
     margin-left: 144px;
+    font-size: 96px;
+    font-weight: 500;
   }
 
   p {
@@ -929,13 +931,16 @@ a.word {
   }
 
 
-
+ 
 }
 
 
 @media only screen and (max-width: 900px) {
 
+  .projectView .projectLinks {
+    margin: 24px 24px 64px 24px;
  
+  }
 
   .scatterMsg {
     font-size: 1.5rem;
